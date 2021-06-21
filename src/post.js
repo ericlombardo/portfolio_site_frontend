@@ -1,13 +1,15 @@
 class Post {
   static all = [] // class variable to remember all posts created
   
-  constructor({ id, title, author, published, content, likes }) {
+  constructor({ id, title, author, published, content, likes, like_pic, title_pic }) {
     this.id = id                // assign attributes to this instance
     this.title = title
     this.author = author
     this.published = published
     this.content = content
     this.likes = likes  
+    this.like_pic = like_pic
+    this.title_pic = title_pic
 
     // create element for post
     this.element = document.createElement('div')
@@ -24,15 +26,12 @@ class Post {
       <h4>${this.author}</h4>
       <p>Published: ${this.published}</p>
       <p>Likes: ${this.likes}</p>
-      ><img class="like-bttn" src="./src/img/heart-thin.png" alt="like button" width="20px"
+      <img class="like-bttn" src=${this.like_pic} alt="like button" width="20px">
     `
     return this.element
   }
   addPostToDom(){  // adds `this` instance to secondDiv
     secondDiv.appendChild(this.createPostHTML()) 
   }
-
-
-
   
 }
