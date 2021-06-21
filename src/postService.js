@@ -4,6 +4,8 @@ class PostService {
   this.endpoint = endpoint
   }
   getPosts() { // get request for all posts 
-  debugger;
+    fetch(this.endpoint + '/posts')
+    .then(resp => resp.json())
+    .then(createPostInstances(posts))
   }
 }
