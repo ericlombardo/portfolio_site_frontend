@@ -18,7 +18,10 @@ class Post {
     // assign identifiers
     this.element.dataset.id = this.id
     this.element.id = `post-${this.id}`
-    
+    // add event listener
+    this.element.addEventListener('mouseenter', () => {
+      // zoom in effect on hover over div
+    })
 
     Post.all.push(this)  // push `this` instance into all array
   }
@@ -29,14 +32,12 @@ class Post {
       <h3>${this.title}</h3>
       <h4>${this.author}</h4>
       <p>Published: ${this.published}</p>
-      <p>Likes: ${this.likes}</p>
+      <p>${this.likes} Likes</p>
     `
     return this.element
   }
 
   addPostToDom(){  // adds `this` instance to secondDiv
     secondDiv.appendChild(this.createPostHTML()) 
-
-
   }
 }
