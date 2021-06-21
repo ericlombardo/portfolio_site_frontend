@@ -10,6 +10,7 @@ class Post {
     this.likes = likes  
     this.like_pic = like_pic
     this.title_pic = title_pic
+    this.liked = false
     
 
     // create element for post
@@ -35,6 +36,6 @@ class Post {
 
   addPostToDom(){  // adds `this` instance to secondDiv
     secondDiv.appendChild(this.createPostHTML()) 
+    this.query
   }
-  
 }
