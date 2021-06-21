@@ -24,10 +24,19 @@ class Post {
       <h4>${this.author}</h4>
       <p>Published: ${this.published}</p>
       <p>Likes: ${this.likes}</p>
+      <img class="like-bttn" src="./src/img/heart-thin.png" alt="like button" width="20px">
     `
+    this.addLikeBttnListener()
     return this.element
   }
   addPostToDom(){  // adds `this` instance to secondDiv
     secondDiv.appendChild(this.createPostHTML()) 
   }
+
+  addLikeBttnListener() {
+    debugger;
+    this.element.lastElementChild.addEventListener('click', handleLike)
+  }
+
+  
 }
