@@ -6,6 +6,11 @@ class PostService {
   getPosts() { // get request for all posts 
     fetch(this.endpoint + '/posts')
     .then(resp => resp.json())
-    .then(createPostInstances(posts))
+    .then(posts => {
+      for (const post of posts) {  // for each post
+        const p = new Post(post)  // create new instance
+        p.addPostToDom()  // add that instance to the dom
+      }
+    })
   }
 }
