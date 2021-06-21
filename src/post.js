@@ -10,6 +10,7 @@ class Post {
     this.likes = likes  
     this.like_pic = like_pic
     this.title_pic = title_pic
+    
 
     // create element for post
     this.element = document.createElement('div')
@@ -22,14 +23,16 @@ class Post {
 
   createPostHTML(){ // uses `this` instance to fill in HTML
     this.element.innerHTML += `
+      <img class="like-btn" src=${this.title_pic} alt="like button" width="350px">
       <h3>${this.title}</h3>
       <h4>${this.author}</h4>
       <p>Published: ${this.published}</p>
       <p>Likes: ${this.likes}</p>
-      <img class="like-bttn" src=${this.like_pic} alt="like button" width="20px">
+      <img class="like-btn" src=${this.like_pic} alt="like button" width="20px">
     `
     return this.element
   }
+
   addPostToDom(){  // adds `this` instance to secondDiv
     secondDiv.appendChild(this.createPostHTML()) 
   }
