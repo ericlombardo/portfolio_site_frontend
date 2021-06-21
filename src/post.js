@@ -22,6 +22,7 @@ class Post {
     this.element.addEventListener('mouseenter', () => {
       // zoom in effect on hover over div
     })
+    this.element.addEventListener('click', this.handleClick)
 
     Post.all.push(this)  // push `this` instance into all array
   }
@@ -39,5 +40,10 @@ class Post {
 
   addPostToDom(){  // adds `this` instance to secondDiv
     secondDiv.appendChild(this.createPostHTML()) 
+  }
+
+  handleClick() { //
+    const post = Post.all.find(post => post.id === parseInt(this.dataset['id']))
+    // clear all divs 1,2,3 and fill in with new content
   }
 }
