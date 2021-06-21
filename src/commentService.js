@@ -1,0 +1,1 @@
+// make all service calls regarding a comment object
