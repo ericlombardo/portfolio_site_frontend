@@ -18,7 +18,7 @@ class Post {
     Post.all.push(this)  // push `this` instance into all array
   }
 
-  createPostHTML(){
+  createPostHTML(){ // uses `this` instance to fill in HTML
     this.element.innerHTML += `
       <h3>${this.title}</h3>
       <h4>${this.author}</h4>
@@ -27,7 +27,7 @@ class Post {
     `
     return this.element
   }
-  addPostToDom(){
+  addPostToDom(){  // adds `this` instance to secondDiv
     secondDiv.appendChild(this.createPostHTML()) 
   }
 }
