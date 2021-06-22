@@ -53,7 +53,7 @@ class Post {
 
   createPostHTML() { // creates HTML using post instance and not object from server
     secondDiv.innerHTML += `
-    <div class="blog-post">
+    <div class="blog-post" data-id="${this.id}>
       <img class="title-pic" src=${this.title_pic} alt="title picture" width="350px">
       <h4>Author: ${this.author}</h4>
       <p>Published: ${this.published}</p>
@@ -65,8 +65,9 @@ class Post {
   }
   handleClick() {
     if (event.target.className === 'like-btn') {
+      debugger
       // switch the icon
-      postService.updatePost(3)
+      postService.updatePost()
       // update the server by 1
       // update the dom from the server
     }
