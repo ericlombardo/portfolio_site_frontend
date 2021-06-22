@@ -1,17 +1,17 @@
 class Post {
   static all = [] // class variable to remember all posts created
-  
+
   constructor({ id, title, author, published, content, likes, like_pic, title_pic }) {
     this.id = id                // assign attributes to this instance
     this.title = title
     this.author = author
     this.published = published
     this.content = content
-    this.likes = likes  
+    this.likes = likes
     this.like_pic = like_pic
     this.title_pic = title_pic
     this.liked = false
-    
+
 
     // create element for post
     this.element = document.createElement('div')
@@ -29,7 +29,7 @@ class Post {
 
   createPostsHTML() { // uses `this` instance to fill in HTML
     this.element.innerHTML += `
-      <img class="like-btn" src=${this.title_pic} alt="like button" width="350px">
+      <img class="title_pic" src=${this.title_pic} alt="like button" width="350px">
       <h3>${this.title}</h3>
       <h4>${this.author}</h4>
       <p>Published: ${this.published}</p>
@@ -39,26 +39,30 @@ class Post {
   }
 
   addPostsToDom() {  // adds `this` instance to secondDiv
-    secondDiv.appendChild(this.createPostsHTML()) 
+    secondDiv.appendChild(this.createPostsHTML())
   }
 
   showSinglePost() { //
-    const post = Post.all.find(p => p.id === parseInt(this.dataset['id']))
+    let post = postService.getSinglePost(this)
     clearPage()
-    generateTitle(`${post.title}`) 
-    Post.createPostHTML(post) 
+    debugger
+    generateTitle(`${post.title}`)
+    Post.createPostHTML.call(post)
+    document.querySelector('.blog-post .like-btn').addEventListener('click', () => {
 
-    // title_pic, title, author, published date, likes, button, content
+    })
   }
 
-  static createPostHTML(post) { // creates HTML using post instance and not object from server
+  static createPostHTML() { // creates HTML using post instance and not object from server
     secondDiv.innerHTML += `
-      <img class="like-btn" src=${post.title_pic} alt="like button" width="350px">
-      <h4>Author: ${post.author}</h4>
-      <p>Published: ${post.published}</p>
-      <img class="like-btn" src=${post.like_pic} alt="like button" width="20px">
-      <p>${post.likes}</p>
-      <p>${post.content}</p>
+    <div class="blog-post">
+      <img class="title_pic" src=${this.title_pic} alt="like button" width="350px">
+      <h4>Author: ${this.author}</h4>
+      <p>Published: ${this.published}</p>
+      <img class="like-btn" src=${this.like_pic} alt="like button" width="20px">
+      <p>${this.likes}</p>
+      <p>${this.content}</p>
+    </div>
     `
   }
 }
