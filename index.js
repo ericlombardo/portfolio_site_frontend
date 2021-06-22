@@ -8,13 +8,13 @@ const thirdDiv = document.getElementById('third-div') // collect 3rd div
 generateTitle('Tech Blog')
 // get all posts
 postService.getPosts()
-
+// clear all divs on index.html
 function clearPage() {
   firstDiv.innerHTML = ''
   secondDiv.innerHTML = ''
   thirdDiv.innerHTML = ''
 }
-
+// generate title in firstDiv
 function generateTitle(t) {
   const title = `
     <div class="title">

@@ -13,10 +13,4 @@ class PostService {
         }
       })
   }
-
-  getSinglePost(id) {
-    fetch(this.endpoint + `/posts/${id}`)
-      .then(resp => resp.json())
-      .then(post => { return post })
-  }
 }

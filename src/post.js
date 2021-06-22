@@ -43,26 +43,22 @@ class Post {
   }
 
   showSinglePost() { //
-    let post = postService.getSinglePost(this)
+    const post = Post.all.find(p => p.id === parseInt(this.dataset['id']))
     clearPage()
-    debugger
     generateTitle(`${post.title}`)
-    Post.createPostHTML.call(post)
-    document.querySelector('.blog-post .like-btn').addEventListener('click', () => {
+    Post.createPostHTML(post)
 
-    })
+    // title_pic, title, author, published date, likes, button, content
   }
 
-  static createPostHTML() { // creates HTML using post instance and not object from server
+  static createPostHTML(post) { // creates HTML using post instance and not object from server
     secondDiv.innerHTML += `
-    <div class="blog-post">
-      <img class="title_pic" src=${this.title_pic} alt="like button" width="350px">
-      <h4>Author: ${this.author}</h4>
-      <p>Published: ${this.published}</p>
-      <img class="like-btn" src=${this.like_pic} alt="like button" width="20px">
-      <p>${this.likes}</p>
-      <p>${this.content}</p>
-    </div>
+      <img class="like-btn" src=${post.title_pic} alt="like button" width="350px">
+      <h4>Author: ${post.author}</h4>
+      <p>Published: ${post.published}</p>
+      <img class="like-btn" src=${post.like_pic} alt="like button" width="20px">
+      <p>${post.likes}</p>
+      <p>${post.content}</p>
     `
   }
 }
