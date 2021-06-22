@@ -13,4 +13,11 @@ class PostService {
         }
       })
   }
+
+  updatePost(id) {
+    // const config =  set up config with method type?? and body with updated
+    fetch(this.endpoint + `/posts/${id}`, config)
+      .then(resp => resp.json())
+      .then(post => { debugger })
+  }
 }
