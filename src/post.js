@@ -22,12 +22,12 @@ class Post {
     this.element.addEventListener('mouseenter', () => {
       // zoom in effect on hover over div
     })
-    this.element.addEventListener('click', this.handleClick)
+    this.element.addEventListener('click', this.showSinglePost)
 
     Post.all.push(this)  // push `this` instance into all array
   }
 
-  createPostsHTML(){ // uses `this` instance to fill in HTML
+  createPostsHTML() { // uses `this` instance to fill in HTML
     this.element.innerHTML += `
       <img class="like-btn" src=${this.title_pic} alt="like button" width="350px">
       <h3>${this.title}</h3>
@@ -38,14 +38,28 @@ class Post {
     return this.element
   }
 
-  addPostsToDom(){  // adds `this` instance to secondDiv
+  addPostsToDom() {  // adds `this` instance to secondDiv
     secondDiv.appendChild(this.createPostsHTML()) 
   }
 
-  handleClick() { //
-    const post = Post.all.find(post => post.id === parseInt(this.dataset['id']))
-    clearPage() 
-    // fill in with 
+  showSinglePost() { //
+    const post = Post.all.find(p => p.id === parseInt(this.dataset['id']))
+    clearPage()
+    generateTitle(`${post.title}`) 
+    Post.createPostHTML(post) 
+
     // title_pic, title, author, published date, likes, button, content
   }
+
+  static createPostHTML(post) { // creates HTML using post instance and not object from server
+    secondDiv.innerHTML += `
+      <img class="like-btn" src=${post.title_pic} alt="like button" width="350px">
+      <h4>Author: ${post.author}</h4>
+      <p>Published: ${post.published}</p>
+      <img class="like-btn" src=${post.like_pic} alt="like button" width="20px">
+      <p>${post.likes}</p>
+      <p>${post.content}</p>
+    `
+  }
 }
+
