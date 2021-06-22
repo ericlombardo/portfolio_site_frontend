@@ -31,7 +31,7 @@ class Post {
     this.element.innerHTML += `
       <img class="title_pic" src=${this.title_pic} alt="like button" width="350px">
       <h3>${this.title}</h3>
-      <h4>${this.author}</h4>
+      <h4>Author: ${this.author}</h4>
       <p>Published: ${this.published}</p>
       <p>${this.likes} Likes</p>
     `
@@ -46,20 +46,30 @@ class Post {
     const post = Post.all.find(p => p.id === parseInt(this.dataset['id']))
     clearPage()
     generateTitle(`${post.title}`)
-    Post.createPostHTML(post)
-
+    post.createPostHTML()
+    document.querySelector('.blog-post').addEventListener('click', post.handleClick)
     // title_pic, title, author, published date, likes, button, content
   }
 
-  static createPostHTML(post) { // creates HTML using post instance and not object from server
+  createPostHTML() { // creates HTML using post instance and not object from server
     secondDiv.innerHTML += `
-      <img class="like-btn" src=${post.title_pic} alt="like button" width="350px">
-      <h4>Author: ${post.author}</h4>
-      <p>Published: ${post.published}</p>
-      <img class="like-btn" src=${post.like_pic} alt="like button" width="20px">
-      <p>${post.likes}</p>
-      <p>${post.content}</p>
+    <div class="blog-post">
+      <img class="title-pic" src=${this.title_pic} alt="title picture" width="350px">
+      <h4>Author: ${this.author}</h4>
+      <p>Published: ${this.published}</p>
+      <img class="like-btn" src=${this.like_pic} alt="like button" width="20px">
+      <p>${this.likes}</p>
+      <p>${this.content}</p>
+    </div>
     `
+  }
+  handleClick() {
+    if (event.target.className === 'like-btn') {
+      // switch the icon
+      postService.updatePost(3)
+      // update the server by 1
+      // update the dom from the server
+    }
   }
 }
 
