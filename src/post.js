@@ -27,7 +27,7 @@ class Post {
     Post.all.push(this)  // push `this` instance into all array
   }
 
-  createPostHTML(){ // uses `this` instance to fill in HTML
+  createPostsHTML(){ // uses `this` instance to fill in HTML
     this.element.innerHTML += `
       <img class="like-btn" src=${this.title_pic} alt="like button" width="350px">
       <h3>${this.title}</h3>
@@ -38,12 +38,14 @@ class Post {
     return this.element
   }
 
-  addPostToDom(){  // adds `this` instance to secondDiv
-    secondDiv.appendChild(this.createPostHTML()) 
+  addPostsToDom(){  // adds `this` instance to secondDiv
+    secondDiv.appendChild(this.createPostsHTML()) 
   }
 
   handleClick() { //
     const post = Post.all.find(post => post.id === parseInt(this.dataset['id']))
-    // clear all divs 1,2,3 and fill in with new content
+    clearPage() 
+    // fill in with 
+    // title_pic, title, author, published date, likes, button, content
   }
 }

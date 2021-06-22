@@ -9,7 +9,7 @@ class PostService {
     .then(posts => {
       for (const post of posts) {  // for each post
         const p = new Post(post)  // create new instance
-        p.addPostToDom()  // add that instance to the dom
+        p.addPostsToDom()  // add that instance to the dom
       }
     })
   }
