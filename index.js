@@ -6,3 +6,9 @@ const thirdDiv = document.getElementById('third-div') // collect 3rd div
 
 // get all posts
 postService.getPosts()
+
+function clearPage() {
+  firstDiv.innerHTML = ''
+  secondDiv.innerHTML = ''
+  thirdDiv.innerHTML = ''
+}
