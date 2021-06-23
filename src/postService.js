@@ -14,10 +14,22 @@ class PostService {
       })
   }
 
-  updatePost(id) {
-    // const config =  set up config with method type?? and body with updated
+  updatePost(id, likes) {
+    const config = {
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        'likes': ++likes,
+        'like_pic': 'src/img/icons/heart-thin.png'
+      })
+    }
     fetch(this.endpoint + `/posts/${id}`, config)
       .then(resp => resp.json())
-      .then(post => { debugger })
+      .then(p => {
+        let likes = document.querySelector('.blog-post').lastElementChild.previousElementSibling
+        likes.innerHTML = (parseInt(likes.innerText) + 1)
+      })
   }
 }
