@@ -48,12 +48,12 @@ class Post {
     generateTitle(`${post.title}`)
     post.createPostHTML()
     document.querySelector('.blog-post').addEventListener('click', post.handleClick)
-    // title_pic, title, author, published date, likes, button, content
+
   }
 
   createPostHTML() { // creates HTML using post instance and not object from server
     secondDiv.innerHTML += `
-    <div class="blog-post" data-id="${this.id}>
+    <div class="blog-post" data-postId="${this.id}">
       <img class="title-pic" src=${this.title_pic} alt="title picture" width="350px">
       <h4>Author: ${this.author}</h4>
       <p>Published: ${this.published}</p>
@@ -63,13 +63,11 @@ class Post {
     </div>
     `
   }
+
   handleClick() {
     if (event.target.className === 'like-btn') {
-      debugger
-      // switch the icon
-      postService.updatePost()
-      // update the server by 1
-      // update the dom from the server
+      postService.updatePost(parseInt(this.dataset.postid), parseInt(event.target.nextElementSibling.innerText))
+
     }
   }
 }
