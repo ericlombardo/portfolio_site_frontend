@@ -42,13 +42,19 @@ class Post {
     secondDiv.appendChild(this.createPostsHTML())
   }
 
-  showSinglePost() { //
+  showSinglePost() {
     const post = Post.all.find(p => p.id === parseInt(this.dataset['id']))
     clearPage()
     generateTitle(`${post.title}`)
     post.createPostHTML()
-    document.querySelector('.blog-post').addEventListener('click', post.handleClick)
+    document.querySelector('.blog-post').addEventListener('click', post.handleLike)
+    //let postComments = Comments.filter(com => com.id === post.dataset['id'])
+    //append postComments to div
 
+    // fetch all comments Comment.all
+    // filter comments out for each post 
+    // append post comments to appropriate div
+    debugger
   }
 
   createPostHTML() { // creates HTML using post instance and not object from server
@@ -64,7 +70,7 @@ class Post {
     `
   }
 
-  handleClick() {
+  handleLike() {
     if (event.target.className === 'like-btn') {
       postService.updatePost(parseInt(this.dataset.postid), parseInt(event.target.nextElementSibling.innerText))
 
