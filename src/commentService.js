@@ -4,13 +4,11 @@ class CommentService {
     this.endpoint = endpoint
   }
 
-  getComments() {
-    fetch(this.endpoint + `/comments`)
+  getPostComments(id) {
+    fetch(this.endpoint + `/posts/${id}/comments`)
       .then(resp => resp.json())
       .then(comments => {
-        for (const comment of comments) {
-          new Comment(comment)
-        }
+        debugger
       })
   }
 }

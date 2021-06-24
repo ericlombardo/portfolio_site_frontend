@@ -7,7 +7,6 @@ const thirdDiv = document.getElementById('third-div') // collect 3rd div
 
 
 generateTitle('Tech Blog')  // set title for main page
-commentService.getComments() // get all comments
 postService.getPosts()  // get all posts
 
 // clear all divs on index.html

@@ -48,13 +48,11 @@ class Post {
     generateTitle(`${post.title}`)
     post.createPostHTML()
     document.querySelector('.blog-post').addEventListener('click', post.handleLike)
-    //let postComments = Comments.filter(com => com.id === post.dataset['id'])
-    //append postComments to div
-
+    // get all comments for this post id
+    commentService.getPostComments(parseInt(this.dataset['id']))
     // fetch all comments Comment.all
     // filter comments out for each post 
     // append post comments to appropriate div
-    debugger
   }
 
   createPostHTML() { // creates HTML using post instance and not object from server
