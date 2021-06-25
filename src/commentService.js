@@ -10,7 +10,8 @@ class CommentService {
       .then(comments => {
         for (const comment of comments) {
           let c = new Comment(comment)
-          console.log(c)
+          Post.addCommentToPost(c.createCommentHTML())
+
         }
       })
   }
