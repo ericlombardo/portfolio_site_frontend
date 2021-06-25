@@ -64,6 +64,8 @@ class Post {
       <img class="like-btn" src=${this.like_pic} alt="like button" width="20px">
       <p>${this.likes}</p>
       <p>${this.content}</p>
+      <div class="comment_container">
+      </div>
     </div>
     `
   }
