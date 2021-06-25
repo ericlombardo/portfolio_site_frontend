@@ -49,7 +49,7 @@ class Post {
     post.createPostHTML()
     document.querySelector('.blog-post').addEventListener('click', post.handleLike)
     // get all comments for this post id
-    commentService.getPostComments(parseInt(this.dataset['id']))
+    commentService.getPostComments(this.dataset['id'])
     // fetch all comments Comment.all
     // filter comments out for each post 
     // append post comments to appropriate div
