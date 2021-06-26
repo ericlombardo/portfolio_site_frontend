@@ -6,4 +6,13 @@ class Comment {
     this.like_pic = like_pic
     this.title_pic = title_pic
   }
+
+  createCommentHTML() { //create html that will show on post
+    const comment = `
+      <div class='comment'>
+        <p>${this.content}</p>
+      </div>
+    `
+    return comment
+  }
 }
