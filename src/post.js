@@ -47,7 +47,7 @@ class Post {
     clearPage()
     generateTitle(`${post.title}`)
     post.createPostHTML()
-    document.querySelector('.blog-post').addEventListener('click', post.handleLike)
+    document.querySelector('.blog-post').addEventListener('click', post.handlePostClick)
     commentService.getPostComments(this.dataset['id'])
   }
 
@@ -76,15 +76,30 @@ class Post {
     `
   }
 
-  handleLike() {
-    debugger
+  handlePostClick() {
     if (event.target.className === 'like-btn') {
       postService.updatePost(parseInt(this.dataset.postid), parseInt(event.target.nextElementSibling.innerText))
     }
     if (event.target.innerText === "Post Comment") {
+      event.preventDefault()
+      const commentContent = document.getElementById('comment-content').value
+      const postId = document.querySelector('.blog-post').dataset["postid"]
       // post comment to server
-      // add comment to comment container
-      // create
+      const config = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          content: commentContent
+        })
+      }
+      fetch(commentService.endpoint + `/posts/${postId}/comments`, config)
+        .then(resp => resp.json())
+        .then(comment => {
+          const newComment = new Comment(comment)
+          Post.addCommentToPost(newComment.createCommentHTML())
+        })
     }
   }
 
@@ -92,6 +107,7 @@ class Post {
     let commentContainer = document.querySelector("#second-div > div > div")
     // append comment to container
     commentContainer.innerHTML += comment
+
   }
 }
 
