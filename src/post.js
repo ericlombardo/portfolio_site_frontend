@@ -84,22 +84,7 @@ class Post {
       event.preventDefault()
       const commentContent = document.getElementById('comment-content').value
       const postId = document.querySelector('.blog-post').dataset["postid"]
-      // post comment to server
-      const config = {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          content: commentContent
-        })
-      }
-      fetch(commentService.endpoint + `/posts/${postId}/comments`, config)
-        .then(resp => resp.json())
-        .then(comment => {
-          const newComment = new Comment(comment)
-          Post.addCommentToPost(newComment.createCommentHTML())
-        })
+      commentService.submitComment(postId, commentContent)
     }
   }
 
