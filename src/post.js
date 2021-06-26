@@ -48,11 +48,7 @@ class Post {
     generateTitle(`${post.title}`)
     post.createPostHTML()
     document.querySelector('.blog-post').addEventListener('click', post.handleLike)
-    // get all comments for this post id
     commentService.getPostComments(this.dataset['id'])
-    // fetch all comments Comment.all
-    // filter comments out for each post 
-    // append post comments to appropriate div
   }
 
   createPostHTML() { // creates HTML using post instance and not object from server
@@ -64,22 +60,35 @@ class Post {
       <img class="like-btn" src=${this.like_pic} alt="like button" width="20px">
       <p>${this.likes}</p>
       <p>${this.content}</p>
+      <h2>Comments</h2>
       <div class="comment_container">
+
       </div>
+      <h2>Add Comment</h2>
+      <div class="form-container">
+        <form id="comment-form">
+          <textarea type="text" id="comment-content"></textarea><br>
+          <button type="submit" id="comment-submit">Post Comment</button>
+        </form>
+      </div>
+
     </div>
     `
   }
 
   handleLike() {
+    debugger
     if (event.target.className === 'like-btn') {
       postService.updatePost(parseInt(this.dataset.postid), parseInt(event.target.nextElementSibling.innerText))
-
+    }
+    if (event.target.innerText === "Post Comment") {
+      // post comment to server
+      // add comment to comment container
+      // create
     }
   }
 
   static addCommentToPost(comment) {
-    // add each comment to the dom
-    // get comment container
     let commentContainer = document.querySelector("#second-div > div > div")
     // append comment to container
     commentContainer.innerHTML += comment
