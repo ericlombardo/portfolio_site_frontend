@@ -76,5 +76,13 @@ class Post {
 
     }
   }
+
+  static addCommentToPost(comment) {
+    // add each comment to the dom
+    // get comment container
+    let commentContainer = document.querySelector("#second-div > div > div")
+    // append comment to container
+    commentContainer.innerHTML += comment
+  }
 }
 
