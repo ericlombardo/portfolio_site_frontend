@@ -1,0 +1,23 @@
+{
+  "name": "portfolio_site_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericlombardo/portfolio_site_frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericlombardo/portfolio_site_frontend/issues"
+  },
+  "homepage": "https://github.com/ericlombardo/portfolio_site_frontend#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
+  }
+}
