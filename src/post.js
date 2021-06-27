@@ -58,7 +58,7 @@ class Post {
       <h4>Author: ${this.author}</h4>
       <p>Published: ${this.published}</p>
       <img class="like-btn" src=${this.like_pic} alt="like button" width="20px">
-      <p>${this.likes}</p>
+      <p id="like-count">${this.likes}</p>
       <p>${this.content}</p>
       <h2>Comments</h2>
       <div class="comment_container">

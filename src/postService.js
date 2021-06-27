@@ -28,8 +28,8 @@ class PostService {
     fetch(this.endpoint + `/posts/${id}`, config)
       .then(resp => resp.json())
       .then(p => {
-        let likes = document.querySelector('.blog-post').lastElementChild.previousElementSibling
-        likes.innerHTML = (parseInt(likes.innerText) + 1)
+        let likes = document.getElementById('like-count')
+        likes.innerText = (parseInt(likes.innerText) + 1)
       })
   }
 }
