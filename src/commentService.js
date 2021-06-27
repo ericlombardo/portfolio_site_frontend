@@ -30,7 +30,7 @@ class CommentService {
       .then(resp => resp.json())
       .then(comment => {
         const newComment = new Comment(comment) // create new comment using instance from server
-        Post.addCommentToPost(newComment.createCommentHTML())  // add comment to dom
+        Post.addCommentToPost(newComment.createCommentHTML())  // add comment to dom 
       })
   }
 }
