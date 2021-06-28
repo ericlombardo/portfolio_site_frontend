@@ -27,10 +27,10 @@ class Post {
 
   createPostsHTML() { // uses `this` instance to fill in HTML
     this.element.innerHTML += `
-    <div class="py-5 md:py-0">
+    <div>
       <img class="title_pic rounded" src=${this.title_pic} alt="like button">
       <h3 class="font-title text-2xl text-center py-2">${this.title}</h3>
-      <h4 class="text-lg text-center">${this.author}  ||  ${this.published}</h4>
+      <h4 class="text-lg text-center">${this.author}   ||   ${this.published}</h4>
       <p class="text-base text-right p-3">${this.likes} Likes</p>
     </div>
     `
@@ -38,7 +38,7 @@ class Post {
   }
 
   addPostsToDom() {  // adds `this` instance to secondDiv
-    secondDiv.classList = "grid md:grid-cols-3 md:gap-4 "
+    secondDiv.classList = "grid md:grid-cols-3 md:gap-5 py-6 justify-items-center"
     secondDiv.appendChild(this.createPostsHTML())
   }
 

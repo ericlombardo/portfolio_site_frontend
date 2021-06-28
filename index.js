@@ -23,8 +23,8 @@ function clearPage() {
 // generate title in firstDiv
 function generateTitle(t) {
   const title = `
-    <div class="title font-title text-5xl text-center py-20">
-      <h1>${t}</h1>
+    <div class="title bg-night-computer bg-cover bg-center bg-no-repeat py-20">
+      <h1 class="text-white text-7xl text-center font-title">${t}</h1>
     </div>
   `
   firstDiv.innerHTML += title
