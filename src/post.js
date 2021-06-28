@@ -18,10 +18,8 @@ class Post {
     // assign identifiers
     this.element.dataset.id = this.id
     this.element.id = `post-${this.id}`
+    this.element.classList = "shadow-lg rounded"
     // add event listener
-    this.element.addEventListener('mouseenter', () => {
-      // zoom in effect on hover over div
-    })
     this.element.addEventListener('click', this.showSinglePost)
 
     Post.all.push(this)  // push `this` instance into all array
@@ -29,11 +27,13 @@ class Post {
 
   createPostsHTML() { // uses `this` instance to fill in HTML
     this.element.innerHTML += `
-      <img class="title_pic" src=${this.title_pic} alt="like button" width="350px">
-      <h3>${this.title}</h3>
-      <h4>Author: ${this.author}</h4>
-      <p>Published: ${this.published}</p>
-      <p>${this.likes} Likes</p>
+    <div>
+      <img class="title_pic rounded" src=${this.title_pic} alt="like button">
+      <h3 class="font-title text-2xl">${this.title}</h3>
+      <h4 class="text-lg">Author: ${this.author}</h4>
+      <p class="text-lg">Published: ${this.published}</p>
+      <p class="text-base text-right p-3">${this.likes} Likes</p>
+    </div>
     `
     return this.element
   }

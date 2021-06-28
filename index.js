@@ -5,7 +5,7 @@ const firstDiv = document.getElementById('first-div') // collect 1nd div
 const secondDiv = document.getElementById('second-div') // collect 2nd div
 const thirdDiv = document.getElementById('third-div') // collect 3rd div
 
-function loadPage(){
+function loadPage() {
   generateTitle('Tech Blog')  // set title for main page
   postService.getPosts()  // get all posts
 }
@@ -19,7 +19,7 @@ function clearPage() {
 // generate title in firstDiv
 function generateTitle(t) {
   const title = `
-    <div class="title">
+    <div class="title font-title text-5xl text-center py-20">
       <h1>${t}</h1>
     </div>
   `
