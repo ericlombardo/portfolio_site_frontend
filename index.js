@@ -5,9 +5,10 @@ const firstDiv = document.getElementById('first-div') // collect 1nd div
 const secondDiv = document.getElementById('second-div') // collect 2nd div
 const thirdDiv = document.getElementById('third-div') // collect 3rd div
 
-
-generateTitle('Tech Blog')  // set title for main page
-postService.getPosts()  // get all posts
+function loadPage(){
+  generateTitle('Tech Blog')  // set title for main page
+  postService.getPosts()  // get all posts
+}
 
 // clear all divs on index.html
 function clearPage() {
@@ -24,3 +25,5 @@ function generateTitle(t) {
   `
   firstDiv.innerHTML += title
 }
+
+loadPage()

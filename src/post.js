@@ -71,7 +71,9 @@ class Post {
           <button type="submit" id="comment-submit">Post Comment</button>
         </form>
       </div>
-
+      <div class="post-nav">
+        <button id="back-btn">Back to Main</button>
+      </div>
     </div>
     `
   }
@@ -86,6 +88,9 @@ class Post {
       const postId = document.querySelector('.blog-post').dataset["postid"]
       commentService.submitComment(postId, commentContent.value)
       commentContent.value = ''
+    } if (event.target.innerText === "Back to Main") {
+      clearPage()
+      loadPage()
     }
   }
 
