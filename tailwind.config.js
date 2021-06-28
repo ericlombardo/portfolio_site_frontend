@@ -7,7 +7,10 @@ module.exports = {
       fontFamily: {
         'body': ['Jura', 'sans-serif'],
         'title': ['Play', 'sans-serif']
-      }
+      },
+      backgroundImage: theme => ({
+        'night-computer': "url('src/img/backgrounds/pexels-josh-sorenson-1714208 (3).jpg')"
+      })
     },
   },
   variants: {
