@@ -13,8 +13,12 @@ function loadPage() {
 // clear all divs on index.html
 function clearPage() {
   firstDiv.innerHTML = ''
+  firstDiv.classList = ''
   secondDiv.innerHTML = ''
+  secondDiv.classList = ''
   thirdDiv.innerHTML = ''
+  thirdDiv.classList = ''
+
 }
 // generate title in firstDiv
 function generateTitle(t) {
