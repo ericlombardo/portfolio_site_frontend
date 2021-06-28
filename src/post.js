@@ -82,9 +82,10 @@ class Post {
     }
     if (event.target.innerText === "Post Comment") {
       event.preventDefault()
-      const commentContent = document.getElementById('comment-content').value
+      const commentContent = document.getElementById('comment-content')
       const postId = document.querySelector('.blog-post').dataset["postid"]
-      commentService.submitComment(postId, commentContent)
+      commentService.submitComment(postId, commentContent.value)
+      commentContent.value = ''
     }
   }
 
