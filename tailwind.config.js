@@ -3,11 +3,12 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    fontFamily: {
-      title: ['Jura', 'sans-serif'],
-      body: ['Jura', 'sans-serif']
+    extend: {
+      fontFamily: {
+        'body': ['Jura', 'sans-serif'],
+        'title': ['Play', 'sans-serif']
+      }
     },
-    extend: {},
   },
   variants: {
     extend: {},
