@@ -3,6 +3,9 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      'sans': ['Jura', 'system-ui','-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji']
+    },
     extend: {
       fontFamily: {
         'body': ['Jura', 'sans-serif'],
