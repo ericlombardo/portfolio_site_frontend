@@ -18,7 +18,7 @@ class Post {
     // assign identifiers
     this.element.dataset.id = this.id
     this.element.id = `post-${this.id}`
-    this.element.classList = "shadow-lg rounded"
+    this.element.classList = "shadow-xl"
     // add event listener
     this.element.addEventListener('click', this.showSinglePost)
 
@@ -26,56 +26,71 @@ class Post {
   }
 
   createPostsHTML() { // uses `this` instance to fill in HTML
-    this.element.innerHTML += `
-    <div>
+    this.element.innerHTML += `    
       <img class="title_pic rounded" src=${this.title_pic} alt="like button">
       <h3 class="font-title text-2xl text-center py-2">${this.title}</h3>
       <h4 class="text-lg text-center">${this.author}   ||   ${this.published}</h4>
       <p class="text-base text-right p-3">${this.likes} Likes</p>
-    </div>
     `
     return this.element
   }
 
   addPostsToDom() {  // adds `this` instance to secondDiv
-    secondDiv.classList = "grid md:grid-cols-3 md:gap-5 py-6 justify-items-center"
-    secondDiv.appendChild(this.createPostsHTML())
+    blogPosts.appendChild(this.createPostsHTML())
   }
 
   showSinglePost() {
     const post = Post.all.find(p => p.id === parseInt(this.dataset['id']))
     clearPage()
-    generateTitle(`${post.title}`)
-    post.createPostHTML()
+    blogTitle.innerHTML = generateTitle(`${post.title}`, 'bg-night-computer')
+    post.addPostToDom(post.createPostHTML())
     document.querySelector('.blog-post').addEventListener('click', post.handlePostClick)
     commentService.getPostComments(this.dataset['id'])
   }
 
   createPostHTML() { // creates HTML using post instance and not object from server
-    secondDiv.innerHTML += `
-    <div class="blog-post" data-postId="${this.id}">
-      <img class="title-pic" src=${this.title_pic} alt="title picture" width="350px">
-      <h4>Author: ${this.author}</h4>
-      <p>Published: ${this.published}</p>
-      <img class="like-btn" src=${this.like_pic} alt="like button" width="20px">
-      <p id="like-count">${this.likes}</p>
-      <p>${this.content}</p>
-      <h2>Comments</h2>
-      <div class="comment_container">
+    return `
+    <div data-postId="${this.id}">
+      <img class="title-pic shadow-md max-w-max w-8/12 mx-auto" src=${this.title_pic} alt="title picture">
+      <div class="grid grid-cols-3 gap-4 py-4">
+        <div class="text-center text-lg font-title"><p>Published: ${this.published}</p></div>
+        <div class="text-center text-lg font-title"><h4>Author: ${this.author}</h4></div>
+        <div class="text-center text-lg font-title">
+          <img class="like-btn inline" src=${this.like_pic} alt="like button" width="20px">
+          <p class="inline" id="like-count">${this.likes}</p>
+        </div>
+      </div>
+      <p class"text-center font-medium text-2xl">${this.content}</p>
 
+      <div class="post-nav py-6">
+        <button class="font-title border border-teal bg-teal-light py-0.5 px-32 rounded shadow-lg cursor-pointer" type="submit" id="comment-submit" id="back-btn">Back to Main</button>
+      </div>  
+
+      <div class="py-7" id="comment-submit-section">
+        <h2 class="font-title text-lg">Add Your Thoughts:</h2>
+        <div class="form-container">
+          <form id="comment-form">
+            <textarea class="border border-teal w-3/5 h-24 rounded shadow-lg" type="text" id="comment-content"></textarea><br>
+            <button class="font-title border border-teal bg-teal-light py-1 px-3 rounded shadow-lg cursor-pointer" type="submit" id="comment-submit">Post Comment</button>
+          </form>
+        </div>
       </div>
-      <h2>Add Comment</h2>
-      <div class="form-container">
-        <form id="comment-form">
-          <textarea type="text" id="comment-content"></textarea><br>
-          <button type="submit" id="comment-submit">Post Comment</button>
-        </form>
+      
+
+      <div class="comment_container grid grid-cols-1 divide-y divide-orange" id="post-comment-section">
+        <h2 class="font-title text-lg">Comments:</h2>
       </div>
-      <div class="post-nav">
-        <button id="back-btn">Back to Main</button>
-      </div>
+      
+      
     </div>
     `
+  }
+
+  addPostToDom(postHTML) {
+    const post = document.createElement('div')
+    post.classList = "blog-post w-screen px-6 lg:px-28 mx-auto"
+    post.innerHTML = postHTML
+    document.body.appendChild(post)
   }
 
   handlePostClick() {
@@ -95,7 +110,7 @@ class Post {
   }
 
   static addCommentToPost(comment) {
-    let commentContainer = document.querySelector("#second-div > div > div")
+    let commentContainer = document.querySelector(".blog-post")
     // append comment to container
     commentContainer.innerHTML += comment
 
