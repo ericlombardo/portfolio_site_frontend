@@ -94,10 +94,11 @@ class Post {
   }
 
   handlePostClick() {
-    if (event.target.className === 'like-btn') {
-      postService.updatePost(parseInt(this.dataset.postid), parseInt(event.target.nextElementSibling.innerText))
+    if (event.target.className.split(' ')[0] === 'like-btn') {
+      postService.updatePost(parseInt(this.firstElementChild.dataset.postid), parseInt(event.target.nextElementSibling.innerText))
     }
     if (event.target.innerText === "Post Comment") {
+      debugger
       event.preventDefault()
       const commentContent = document.getElementById('comment-content')
       const postId = document.querySelector('.blog-post').dataset["postid"]
