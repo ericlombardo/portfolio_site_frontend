@@ -62,8 +62,8 @@ class Post {
       </div>
       <p class"text-center font-medium text-2xl">${this.content}</p>
 
-      <div class="post-nav py-6">
-        <button class="font-title border border-teal bg-teal-light py-0.5 px-32 rounded shadow-lg cursor-pointer" type="submit" id="comment-submit" id="back-btn">Back to Main</button>
+      <div class="post-nav flex items-top justify-center py-12">
+        <button class="w-2/5 font-title border border-teal bg-teal-light py-0.5 px-32 rounded shadow-lg cursor-pointer" type="submit" id="comment-submit" id="back-btn">Back to Main</button>
       </div>  
 
       <div class="py-7" id="comment-submit-section">
@@ -71,7 +71,7 @@ class Post {
         <div class="form-container">
           <form id="comment-form">
             <textarea class="border border-teal w-3/5 h-24 rounded shadow-lg" type="text" id="comment-content"></textarea><br>
-            <button class="font-title border border-teal bg-teal-light py-1 px-3 rounded shadow-lg cursor-pointer" type="submit" id="comment-submit">Post Comment</button>
+            <button class="font-title border border-teal bg-teal-light py-2 px-3 rounded shadow-lg cursor-pointer" type="submit" id="comment-submit">Post Comment</button>
           </form>
         </div>
       </div>
