@@ -98,10 +98,9 @@ class Post {
       postService.updatePost(parseInt(this.firstElementChild.dataset.postid), parseInt(event.target.nextElementSibling.innerText))
     }
     if (event.target.innerText === "Post Comment") {
-      debugger
       event.preventDefault()
       const commentContent = document.getElementById('comment-content')
-      const postId = document.querySelector('.blog-post').dataset["postid"]
+      const postId = document.querySelector('[data-postId]').dataset['postid']
       commentService.submitComment(postId, commentContent.value)
       commentContent.value = ''
     } if (event.target.innerText === "Back to Main") {
