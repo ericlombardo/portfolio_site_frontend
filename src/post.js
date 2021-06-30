@@ -76,9 +76,9 @@ class Post {
         </div>
       </div>
       
+      <h2 class="font-title text-lg py-2">Comments:</h2>
 
-      <div class="comment-container grid grid-cols-1 divide-y divide-orange" id="post-comment-section">
-        <h2 class="font-title text-lg">Comments:</h2>
+      <div class="comment-container flex flex-col-reverse divide-y-2 divide-y-reverse divide-orange w-9/12 p-4 border-2 border-orange rounded shadow-lg" id="post-comment-section">
       </div>
       
       

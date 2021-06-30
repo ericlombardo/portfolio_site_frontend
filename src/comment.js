@@ -9,7 +9,7 @@ class Comment {
 
   createCommentHTML() { //create html that will show on post
     const comment = `
-        <div>${this.content}</div>
+        <div class="p-4">${this.content}</div>
     `
     return comment
   }
