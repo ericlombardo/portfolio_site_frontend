@@ -77,7 +77,7 @@ class Post {
       </div>
       
 
-      <div class="comment_container grid grid-cols-1 divide-y divide-orange" id="post-comment-section">
+      <div class="comment-container grid grid-cols-1 divide-y divide-orange" id="post-comment-section">
         <h2 class="font-title text-lg">Comments:</h2>
       </div>
       
@@ -105,13 +105,12 @@ class Post {
       commentService.submitComment(postId, commentContent.value)
       commentContent.value = ''
     } if (event.target.innerText === "Back to Main") {
-      clearPage()
-      loadPage()
+      location.reload()
     }
   }
 
   static addCommentToPost(comment) {
-    let commentContainer = document.querySelector(".blog-post")
+    let commentContainer = document.getElementById('post-comment-section')
     // append comment to container
     commentContainer.innerHTML += comment
 
