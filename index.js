@@ -12,6 +12,7 @@ function loadPage() {
 
 // clear all divs on index.html
 function clearPage() {
+  document.getElementById('landing-page').remove()
   document.body.childNodes.forEach(el => el.innerHTML = '')
 }
 // generate title in titleDiv
