@@ -9093,80 +9093,16 @@ video {
   --tw-rotate: 12deg;
 }
 
-.rotate-20{
-  --tw-rotate: 20deg;
-}
-
-.rotate-40{
-  --tw-rotate: 40deg;
-}
-
 .rotate-45{
   --tw-rotate: 45deg;
-}
-
-.rotate-60{
-  --tw-rotate: 60deg;
-}
-
-.rotate-80{
-  --tw-rotate: 80deg;
 }
 
 .rotate-90{
   --tw-rotate: 90deg;
 }
 
-.rotate-100{
-  --tw-rotate: 100deg;
-}
-
-.rotate-120{
-  --tw-rotate: 120deg;
-}
-
-.rotate-140{
-  --tw-rotate: 80deg;
-}
-
-.rotate-160{
-  --tw-rotate: 90deg;
-}
-
 .rotate-180{
-  --tw-rotate: 100deg;
-}
-
-.rotate-200{
-  --tw-rotate: 110deg;
-}
-
-.rotate-220{
-  --tw-rotate: 120deg;
-}
-
-.rotate-240{
-  --tw-rotate: 130deg;
-}
-
-.rotate-260{
-  --tw-rotate: 140deg;
-}
-
-.rotate-280{
-  --tw-rotate: 280deg;
-}
-
-.rotate-300{
-  --tw-rotate: 300deg;
-}
-
-.rotate-320{
-  --tw-rotate: 320deg;
-}
-
-.rotate-340{
-  --tw-rotate: 340deg;
+  --tw-rotate: 180deg;
 }
 
 .-rotate-180{
@@ -9225,80 +9161,16 @@ video {
   --tw-rotate: 12deg;
 }
 
-.hover\:rotate-20:hover{
-  --tw-rotate: 20deg;
-}
-
-.hover\:rotate-40:hover{
-  --tw-rotate: 40deg;
-}
-
 .hover\:rotate-45:hover{
   --tw-rotate: 45deg;
-}
-
-.hover\:rotate-60:hover{
-  --tw-rotate: 60deg;
-}
-
-.hover\:rotate-80:hover{
-  --tw-rotate: 80deg;
 }
 
 .hover\:rotate-90:hover{
   --tw-rotate: 90deg;
 }
 
-.hover\:rotate-100:hover{
-  --tw-rotate: 100deg;
-}
-
-.hover\:rotate-120:hover{
-  --tw-rotate: 120deg;
-}
-
-.hover\:rotate-140:hover{
-  --tw-rotate: 80deg;
-}
-
-.hover\:rotate-160:hover{
-  --tw-rotate: 90deg;
-}
-
 .hover\:rotate-180:hover{
-  --tw-rotate: 100deg;
-}
-
-.hover\:rotate-200:hover{
-  --tw-rotate: 110deg;
-}
-
-.hover\:rotate-220:hover{
-  --tw-rotate: 120deg;
-}
-
-.hover\:rotate-240:hover{
-  --tw-rotate: 130deg;
-}
-
-.hover\:rotate-260:hover{
-  --tw-rotate: 140deg;
-}
-
-.hover\:rotate-280:hover{
-  --tw-rotate: 280deg;
-}
-
-.hover\:rotate-300:hover{
-  --tw-rotate: 300deg;
-}
-
-.hover\:rotate-320:hover{
-  --tw-rotate: 320deg;
-}
-
-.hover\:rotate-340:hover{
-  --tw-rotate: 340deg;
+  --tw-rotate: 180deg;
 }
 
 .hover\:-rotate-180:hover{
@@ -9357,80 +9229,16 @@ video {
   --tw-rotate: 12deg;
 }
 
-.focus\:rotate-20:focus{
-  --tw-rotate: 20deg;
-}
-
-.focus\:rotate-40:focus{
-  --tw-rotate: 40deg;
-}
-
 .focus\:rotate-45:focus{
   --tw-rotate: 45deg;
-}
-
-.focus\:rotate-60:focus{
-  --tw-rotate: 60deg;
-}
-
-.focus\:rotate-80:focus{
-  --tw-rotate: 80deg;
 }
 
 .focus\:rotate-90:focus{
   --tw-rotate: 90deg;
 }
 
-.focus\:rotate-100:focus{
-  --tw-rotate: 100deg;
-}
-
-.focus\:rotate-120:focus{
-  --tw-rotate: 120deg;
-}
-
-.focus\:rotate-140:focus{
-  --tw-rotate: 80deg;
-}
-
-.focus\:rotate-160:focus{
-  --tw-rotate: 90deg;
-}
-
 .focus\:rotate-180:focus{
-  --tw-rotate: 100deg;
-}
-
-.focus\:rotate-200:focus{
-  --tw-rotate: 110deg;
-}
-
-.focus\:rotate-220:focus{
-  --tw-rotate: 120deg;
-}
-
-.focus\:rotate-240:focus{
-  --tw-rotate: 130deg;
-}
-
-.focus\:rotate-260:focus{
-  --tw-rotate: 140deg;
-}
-
-.focus\:rotate-280:focus{
-  --tw-rotate: 280deg;
-}
-
-.focus\:rotate-300:focus{
-  --tw-rotate: 300deg;
-}
-
-.focus\:rotate-320:focus{
-  --tw-rotate: 320deg;
-}
-
-.focus\:rotate-340:focus{
-  --tw-rotate: 340deg;
+  --tw-rotate: 180deg;
 }
 
 .focus\:-rotate-180:focus{
@@ -10185,6 +9993,330 @@ video {
   }
 }
 
+@-webkit-keyframes rot10{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  5%{
+    transform: rotate(10deg);
+  }
+
+  95%{
+    transform: rotate(10deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rot10{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  5%{
+    transform: rotate(10deg);
+  }
+
+  95%{
+    transform: rotate(10deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes rot20{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  10%{
+    transform: rotate(20deg);
+  }
+
+  90%{
+    transform: rotate(20deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rot20{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  10%{
+    transform: rotate(20deg);
+  }
+
+  90%{
+    transform: rotate(20deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes rot30{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  15%{
+    transform: rotate(30deg);
+  }
+
+  85%{
+    transform: rotate(30deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rot30{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  15%{
+    transform: rotate(30deg);
+  }
+
+  85%{
+    transform: rotate(30deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes rot40{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  20%{
+    transform: rotate(40deg);
+  }
+
+  80%{
+    transform: rotate(40deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rot40{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  20%{
+    transform: rotate(40deg);
+  }
+
+  80%{
+    transform: rotate(40deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes rot50{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  25%{
+    transform: rotate(50deg);
+  }
+
+  75%{
+    transform: rotate(50deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rot50{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  25%{
+    transform: rotate(50deg);
+  }
+
+  75%{
+    transform: rotate(50deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes rot60{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  30%{
+    transform: rotate(60deg);
+  }
+
+  70%{
+    transform: rotate(60deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rot60{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  30%{
+    transform: rotate(60deg);
+  }
+
+  70%{
+    transform: rotate(60deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes rot70{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  35%{
+    transform: rotate(70deg);
+  }
+
+  65%{
+    transform: rotate(70deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rot70{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  35%{
+    transform: rotate(70deg);
+  }
+
+  65%{
+    transform: rotate(70deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes rot80{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  40%{
+    transform: rotate(80deg);
+  }
+
+  60%{
+    transform: rotate(80deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rot80{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  40%{
+    transform: rotate(80deg);
+  }
+
+  60%{
+    transform: rotate(80deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes rot90{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  45%{
+    transform: rotate(90deg);
+  }
+
+  55%{
+    transform: rotate(90deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rot90{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  45%{
+    transform: rotate(90deg);
+  }
+
+  55%{
+    transform: rotate(90deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
 .animate-none{
   -webkit-animation: none;
           animation: none;
@@ -10208,6 +10340,51 @@ video {
 .animate-bounce{
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
+}
+
+.animate-rot10{
+  -webkit-animation: rot10 30s linear infinite;
+          animation: rot10 30s linear infinite;
+}
+
+.animate-rot20{
+  -webkit-animation: rot20 30s linear infinite;
+          animation: rot20 30s linear infinite;
+}
+
+.animate-rot30{
+  -webkit-animation: rot30 30s linear infinite;
+          animation: rot30 30s linear infinite;
+}
+
+.animate-rot40{
+  -webkit-animation: rot40 30s linear infinite;
+          animation: rot40 30s linear infinite;
+}
+
+.animate-rot50{
+  -webkit-animation: rot50 30s linear infinite;
+          animation: rot50 30s linear infinite;
+}
+
+.animate-rot60{
+  -webkit-animation: rot60 30s linear infinite;
+          animation: rot60 30s linear infinite;
+}
+
+.animate-rot70{
+  -webkit-animation: rot70 30s linear infinite;
+          animation: rot70 30s linear infinite;
+}
+
+.animate-rot80{
+  -webkit-animation: rot80 30s linear infinite;
+          animation: rot80 30s linear infinite;
+}
+
+.animate-rot90{
+  -webkit-animation: rot90 30s linear infinite;
+          animation: rot90 30s linear infinite;
 }
 
 .cursor-auto{
@@ -19465,6 +19642,16 @@ video {
   content: none;
 }
 
+@layer size {
+  .width-200 {
+    width: 800px;
+  }
+
+  .height-200 {
+    height: 800px;
+  }
+}
+
 /* font-family: 'Jura', sans-serif; */
 
 /* font-family: 'Play', sans-serif; */
@@ -27982,80 +28169,16 @@ video {
     --tw-rotate: 12deg;
   }
 
-  .sm\:rotate-20{
-    --tw-rotate: 20deg;
-  }
-
-  .sm\:rotate-40{
-    --tw-rotate: 40deg;
-  }
-
   .sm\:rotate-45{
     --tw-rotate: 45deg;
-  }
-
-  .sm\:rotate-60{
-    --tw-rotate: 60deg;
-  }
-
-  .sm\:rotate-80{
-    --tw-rotate: 80deg;
   }
 
   .sm\:rotate-90{
     --tw-rotate: 90deg;
   }
 
-  .sm\:rotate-100{
-    --tw-rotate: 100deg;
-  }
-
-  .sm\:rotate-120{
-    --tw-rotate: 120deg;
-  }
-
-  .sm\:rotate-140{
-    --tw-rotate: 80deg;
-  }
-
-  .sm\:rotate-160{
-    --tw-rotate: 90deg;
-  }
-
   .sm\:rotate-180{
-    --tw-rotate: 100deg;
-  }
-
-  .sm\:rotate-200{
-    --tw-rotate: 110deg;
-  }
-
-  .sm\:rotate-220{
-    --tw-rotate: 120deg;
-  }
-
-  .sm\:rotate-240{
-    --tw-rotate: 130deg;
-  }
-
-  .sm\:rotate-260{
-    --tw-rotate: 140deg;
-  }
-
-  .sm\:rotate-280{
-    --tw-rotate: 280deg;
-  }
-
-  .sm\:rotate-300{
-    --tw-rotate: 300deg;
-  }
-
-  .sm\:rotate-320{
-    --tw-rotate: 320deg;
-  }
-
-  .sm\:rotate-340{
-    --tw-rotate: 340deg;
+    --tw-rotate: 180deg;
   }
 
   .sm\:-rotate-180{
@@ -28114,80 +28237,16 @@ video {
     --tw-rotate: 12deg;
   }
 
-  .sm\:hover\:rotate-20:hover{
-    --tw-rotate: 20deg;
-  }
-
-  .sm\:hover\:rotate-40:hover{
-    --tw-rotate: 40deg;
-  }
-
   .sm\:hover\:rotate-45:hover{
     --tw-rotate: 45deg;
-  }
-
-  .sm\:hover\:rotate-60:hover{
-    --tw-rotate: 60deg;
-  }
-
-  .sm\:hover\:rotate-80:hover{
-    --tw-rotate: 80deg;
   }
 
   .sm\:hover\:rotate-90:hover{
     --tw-rotate: 90deg;
   }
 
-  .sm\:hover\:rotate-100:hover{
-    --tw-rotate: 100deg;
-  }
-
-  .sm\:hover\:rotate-120:hover{
-    --tw-rotate: 120deg;
-  }
-
-  .sm\:hover\:rotate-140:hover{
-    --tw-rotate: 80deg;
-  }
-
-  .sm\:hover\:rotate-160:hover{
-    --tw-rotate: 90deg;
-  }
-
   .sm\:hover\:rotate-180:hover{
-    --tw-rotate: 100deg;
-  }
-
-  .sm\:hover\:rotate-200:hover{
-    --tw-rotate: 110deg;
-  }
-
-  .sm\:hover\:rotate-220:hover{
-    --tw-rotate: 120deg;
-  }
-
-  .sm\:hover\:rotate-240:hover{
-    --tw-rotate: 130deg;
-  }
-
-  .sm\:hover\:rotate-260:hover{
-    --tw-rotate: 140deg;
-  }
-
-  .sm\:hover\:rotate-280:hover{
-    --tw-rotate: 280deg;
-  }
-
-  .sm\:hover\:rotate-300:hover{
-    --tw-rotate: 300deg;
-  }
-
-  .sm\:hover\:rotate-320:hover{
-    --tw-rotate: 320deg;
-  }
-
-  .sm\:hover\:rotate-340:hover{
-    --tw-rotate: 340deg;
+    --tw-rotate: 180deg;
   }
 
   .sm\:hover\:-rotate-180:hover{
@@ -28246,80 +28305,16 @@ video {
     --tw-rotate: 12deg;
   }
 
-  .sm\:focus\:rotate-20:focus{
-    --tw-rotate: 20deg;
-  }
-
-  .sm\:focus\:rotate-40:focus{
-    --tw-rotate: 40deg;
-  }
-
   .sm\:focus\:rotate-45:focus{
     --tw-rotate: 45deg;
-  }
-
-  .sm\:focus\:rotate-60:focus{
-    --tw-rotate: 60deg;
-  }
-
-  .sm\:focus\:rotate-80:focus{
-    --tw-rotate: 80deg;
   }
 
   .sm\:focus\:rotate-90:focus{
     --tw-rotate: 90deg;
   }
 
-  .sm\:focus\:rotate-100:focus{
-    --tw-rotate: 100deg;
-  }
-
-  .sm\:focus\:rotate-120:focus{
-    --tw-rotate: 120deg;
-  }
-
-  .sm\:focus\:rotate-140:focus{
-    --tw-rotate: 80deg;
-  }
-
-  .sm\:focus\:rotate-160:focus{
-    --tw-rotate: 90deg;
-  }
-
   .sm\:focus\:rotate-180:focus{
-    --tw-rotate: 100deg;
-  }
-
-  .sm\:focus\:rotate-200:focus{
-    --tw-rotate: 110deg;
-  }
-
-  .sm\:focus\:rotate-220:focus{
-    --tw-rotate: 120deg;
-  }
-
-  .sm\:focus\:rotate-240:focus{
-    --tw-rotate: 130deg;
-  }
-
-  .sm\:focus\:rotate-260:focus{
-    --tw-rotate: 140deg;
-  }
-
-  .sm\:focus\:rotate-280:focus{
-    --tw-rotate: 280deg;
-  }
-
-  .sm\:focus\:rotate-300:focus{
-    --tw-rotate: 300deg;
-  }
-
-  .sm\:focus\:rotate-320:focus{
-    --tw-rotate: 320deg;
-  }
-
-  .sm\:focus\:rotate-340:focus{
-    --tw-rotate: 340deg;
+    --tw-rotate: 180deg;
   }
 
   .sm\:focus\:-rotate-180:focus{
@@ -29031,6 +29026,51 @@ video {
   .sm\:animate-bounce{
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .sm\:animate-rot10{
+    -webkit-animation: rot10 30s linear infinite;
+            animation: rot10 30s linear infinite;
+  }
+
+  .sm\:animate-rot20{
+    -webkit-animation: rot20 30s linear infinite;
+            animation: rot20 30s linear infinite;
+  }
+
+  .sm\:animate-rot30{
+    -webkit-animation: rot30 30s linear infinite;
+            animation: rot30 30s linear infinite;
+  }
+
+  .sm\:animate-rot40{
+    -webkit-animation: rot40 30s linear infinite;
+            animation: rot40 30s linear infinite;
+  }
+
+  .sm\:animate-rot50{
+    -webkit-animation: rot50 30s linear infinite;
+            animation: rot50 30s linear infinite;
+  }
+
+  .sm\:animate-rot60{
+    -webkit-animation: rot60 30s linear infinite;
+            animation: rot60 30s linear infinite;
+  }
+
+  .sm\:animate-rot70{
+    -webkit-animation: rot70 30s linear infinite;
+            animation: rot70 30s linear infinite;
+  }
+
+  .sm\:animate-rot80{
+    -webkit-animation: rot80 30s linear infinite;
+            animation: rot80 30s linear infinite;
+  }
+
+  .sm\:animate-rot90{
+    -webkit-animation: rot90 30s linear infinite;
+            animation: rot90 30s linear infinite;
   }
 
   .sm\:cursor-auto{
@@ -46677,80 +46717,16 @@ video {
     --tw-rotate: 12deg;
   }
 
-  .md\:rotate-20{
-    --tw-rotate: 20deg;
-  }
-
-  .md\:rotate-40{
-    --tw-rotate: 40deg;
-  }
-
   .md\:rotate-45{
     --tw-rotate: 45deg;
-  }
-
-  .md\:rotate-60{
-    --tw-rotate: 60deg;
-  }
-
-  .md\:rotate-80{
-    --tw-rotate: 80deg;
   }
 
   .md\:rotate-90{
     --tw-rotate: 90deg;
   }
 
-  .md\:rotate-100{
-    --tw-rotate: 100deg;
-  }
-
-  .md\:rotate-120{
-    --tw-rotate: 120deg;
-  }
-
-  .md\:rotate-140{
-    --tw-rotate: 80deg;
-  }
-
-  .md\:rotate-160{
-    --tw-rotate: 90deg;
-  }
-
   .md\:rotate-180{
-    --tw-rotate: 100deg;
-  }
-
-  .md\:rotate-200{
-    --tw-rotate: 110deg;
-  }
-
-  .md\:rotate-220{
-    --tw-rotate: 120deg;
-  }
-
-  .md\:rotate-240{
-    --tw-rotate: 130deg;
-  }
-
-  .md\:rotate-260{
-    --tw-rotate: 140deg;
-  }
-
-  .md\:rotate-280{
-    --tw-rotate: 280deg;
-  }
-
-  .md\:rotate-300{
-    --tw-rotate: 300deg;
-  }
-
-  .md\:rotate-320{
-    --tw-rotate: 320deg;
-  }
-
-  .md\:rotate-340{
-    --tw-rotate: 340deg;
+    --tw-rotate: 180deg;
   }
 
   .md\:-rotate-180{
@@ -46809,80 +46785,16 @@ video {
     --tw-rotate: 12deg;
   }
 
-  .md\:hover\:rotate-20:hover{
-    --tw-rotate: 20deg;
-  }
-
-  .md\:hover\:rotate-40:hover{
-    --tw-rotate: 40deg;
-  }
-
   .md\:hover\:rotate-45:hover{
     --tw-rotate: 45deg;
-  }
-
-  .md\:hover\:rotate-60:hover{
-    --tw-rotate: 60deg;
-  }
-
-  .md\:hover\:rotate-80:hover{
-    --tw-rotate: 80deg;
   }
 
   .md\:hover\:rotate-90:hover{
     --tw-rotate: 90deg;
   }
 
-  .md\:hover\:rotate-100:hover{
-    --tw-rotate: 100deg;
-  }
-
-  .md\:hover\:rotate-120:hover{
-    --tw-rotate: 120deg;
-  }
-
-  .md\:hover\:rotate-140:hover{
-    --tw-rotate: 80deg;
-  }
-
-  .md\:hover\:rotate-160:hover{
-    --tw-rotate: 90deg;
-  }
-
   .md\:hover\:rotate-180:hover{
-    --tw-rotate: 100deg;
-  }
-
-  .md\:hover\:rotate-200:hover{
-    --tw-rotate: 110deg;
-  }
-
-  .md\:hover\:rotate-220:hover{
-    --tw-rotate: 120deg;
-  }
-
-  .md\:hover\:rotate-240:hover{
-    --tw-rotate: 130deg;
-  }
-
-  .md\:hover\:rotate-260:hover{
-    --tw-rotate: 140deg;
-  }
-
-  .md\:hover\:rotate-280:hover{
-    --tw-rotate: 280deg;
-  }
-
-  .md\:hover\:rotate-300:hover{
-    --tw-rotate: 300deg;
-  }
-
-  .md\:hover\:rotate-320:hover{
-    --tw-rotate: 320deg;
-  }
-
-  .md\:hover\:rotate-340:hover{
-    --tw-rotate: 340deg;
+    --tw-rotate: 180deg;
   }
 
   .md\:hover\:-rotate-180:hover{
@@ -46941,80 +46853,16 @@ video {
     --tw-rotate: 12deg;
   }
 
-  .md\:focus\:rotate-20:focus{
-    --tw-rotate: 20deg;
-  }
-
-  .md\:focus\:rotate-40:focus{
-    --tw-rotate: 40deg;
-  }
-
   .md\:focus\:rotate-45:focus{
     --tw-rotate: 45deg;
-  }
-
-  .md\:focus\:rotate-60:focus{
-    --tw-rotate: 60deg;
-  }
-
-  .md\:focus\:rotate-80:focus{
-    --tw-rotate: 80deg;
   }
 
   .md\:focus\:rotate-90:focus{
     --tw-rotate: 90deg;
   }
 
-  .md\:focus\:rotate-100:focus{
-    --tw-rotate: 100deg;
-  }
-
-  .md\:focus\:rotate-120:focus{
-    --tw-rotate: 120deg;
-  }
-
-  .md\:focus\:rotate-140:focus{
-    --tw-rotate: 80deg;
-  }
-
-  .md\:focus\:rotate-160:focus{
-    --tw-rotate: 90deg;
-  }
-
   .md\:focus\:rotate-180:focus{
-    --tw-rotate: 100deg;
-  }
-
-  .md\:focus\:rotate-200:focus{
-    --tw-rotate: 110deg;
-  }
-
-  .md\:focus\:rotate-220:focus{
-    --tw-rotate: 120deg;
-  }
-
-  .md\:focus\:rotate-240:focus{
-    --tw-rotate: 130deg;
-  }
-
-  .md\:focus\:rotate-260:focus{
-    --tw-rotate: 140deg;
-  }
-
-  .md\:focus\:rotate-280:focus{
-    --tw-rotate: 280deg;
-  }
-
-  .md\:focus\:rotate-300:focus{
-    --tw-rotate: 300deg;
-  }
-
-  .md\:focus\:rotate-320:focus{
-    --tw-rotate: 320deg;
-  }
-
-  .md\:focus\:rotate-340:focus{
-    --tw-rotate: 340deg;
+    --tw-rotate: 180deg;
   }
 
   .md\:focus\:-rotate-180:focus{
@@ -47726,6 +47574,51 @@ video {
   .md\:animate-bounce{
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .md\:animate-rot10{
+    -webkit-animation: rot10 30s linear infinite;
+            animation: rot10 30s linear infinite;
+  }
+
+  .md\:animate-rot20{
+    -webkit-animation: rot20 30s linear infinite;
+            animation: rot20 30s linear infinite;
+  }
+
+  .md\:animate-rot30{
+    -webkit-animation: rot30 30s linear infinite;
+            animation: rot30 30s linear infinite;
+  }
+
+  .md\:animate-rot40{
+    -webkit-animation: rot40 30s linear infinite;
+            animation: rot40 30s linear infinite;
+  }
+
+  .md\:animate-rot50{
+    -webkit-animation: rot50 30s linear infinite;
+            animation: rot50 30s linear infinite;
+  }
+
+  .md\:animate-rot60{
+    -webkit-animation: rot60 30s linear infinite;
+            animation: rot60 30s linear infinite;
+  }
+
+  .md\:animate-rot70{
+    -webkit-animation: rot70 30s linear infinite;
+            animation: rot70 30s linear infinite;
+  }
+
+  .md\:animate-rot80{
+    -webkit-animation: rot80 30s linear infinite;
+            animation: rot80 30s linear infinite;
+  }
+
+  .md\:animate-rot90{
+    -webkit-animation: rot90 30s linear infinite;
+            animation: rot90 30s linear infinite;
   }
 
   .md\:cursor-auto{
@@ -65372,80 +65265,16 @@ video {
     --tw-rotate: 12deg;
   }
 
-  .lg\:rotate-20{
-    --tw-rotate: 20deg;
-  }
-
-  .lg\:rotate-40{
-    --tw-rotate: 40deg;
-  }
-
   .lg\:rotate-45{
     --tw-rotate: 45deg;
-  }
-
-  .lg\:rotate-60{
-    --tw-rotate: 60deg;
-  }
-
-  .lg\:rotate-80{
-    --tw-rotate: 80deg;
   }
 
   .lg\:rotate-90{
     --tw-rotate: 90deg;
   }
 
-  .lg\:rotate-100{
-    --tw-rotate: 100deg;
-  }
-
-  .lg\:rotate-120{
-    --tw-rotate: 120deg;
-  }
-
-  .lg\:rotate-140{
-    --tw-rotate: 80deg;
-  }
-
-  .lg\:rotate-160{
-    --tw-rotate: 90deg;
-  }
-
   .lg\:rotate-180{
-    --tw-rotate: 100deg;
-  }
-
-  .lg\:rotate-200{
-    --tw-rotate: 110deg;
-  }
-
-  .lg\:rotate-220{
-    --tw-rotate: 120deg;
-  }
-
-  .lg\:rotate-240{
-    --tw-rotate: 130deg;
-  }
-
-  .lg\:rotate-260{
-    --tw-rotate: 140deg;
-  }
-
-  .lg\:rotate-280{
-    --tw-rotate: 280deg;
-  }
-
-  .lg\:rotate-300{
-    --tw-rotate: 300deg;
-  }
-
-  .lg\:rotate-320{
-    --tw-rotate: 320deg;
-  }
-
-  .lg\:rotate-340{
-    --tw-rotate: 340deg;
+    --tw-rotate: 180deg;
   }
 
   .lg\:-rotate-180{
@@ -65504,80 +65333,16 @@ video {
     --tw-rotate: 12deg;
   }
 
-  .lg\:hover\:rotate-20:hover{
-    --tw-rotate: 20deg;
-  }
-
-  .lg\:hover\:rotate-40:hover{
-    --tw-rotate: 40deg;
-  }
-
   .lg\:hover\:rotate-45:hover{
     --tw-rotate: 45deg;
-  }
-
-  .lg\:hover\:rotate-60:hover{
-    --tw-rotate: 60deg;
-  }
-
-  .lg\:hover\:rotate-80:hover{
-    --tw-rotate: 80deg;
   }
 
   .lg\:hover\:rotate-90:hover{
     --tw-rotate: 90deg;
   }
 
-  .lg\:hover\:rotate-100:hover{
-    --tw-rotate: 100deg;
-  }
-
-  .lg\:hover\:rotate-120:hover{
-    --tw-rotate: 120deg;
-  }
-
-  .lg\:hover\:rotate-140:hover{
-    --tw-rotate: 80deg;
-  }
-
-  .lg\:hover\:rotate-160:hover{
-    --tw-rotate: 90deg;
-  }
-
   .lg\:hover\:rotate-180:hover{
-    --tw-rotate: 100deg;
-  }
-
-  .lg\:hover\:rotate-200:hover{
-    --tw-rotate: 110deg;
-  }
-
-  .lg\:hover\:rotate-220:hover{
-    --tw-rotate: 120deg;
-  }
-
-  .lg\:hover\:rotate-240:hover{
-    --tw-rotate: 130deg;
-  }
-
-  .lg\:hover\:rotate-260:hover{
-    --tw-rotate: 140deg;
-  }
-
-  .lg\:hover\:rotate-280:hover{
-    --tw-rotate: 280deg;
-  }
-
-  .lg\:hover\:rotate-300:hover{
-    --tw-rotate: 300deg;
-  }
-
-  .lg\:hover\:rotate-320:hover{
-    --tw-rotate: 320deg;
-  }
-
-  .lg\:hover\:rotate-340:hover{
-    --tw-rotate: 340deg;
+    --tw-rotate: 180deg;
   }
 
   .lg\:hover\:-rotate-180:hover{
@@ -65636,80 +65401,16 @@ video {
     --tw-rotate: 12deg;
   }
 
-  .lg\:focus\:rotate-20:focus{
-    --tw-rotate: 20deg;
-  }
-
-  .lg\:focus\:rotate-40:focus{
-    --tw-rotate: 40deg;
-  }
-
   .lg\:focus\:rotate-45:focus{
     --tw-rotate: 45deg;
-  }
-
-  .lg\:focus\:rotate-60:focus{
-    --tw-rotate: 60deg;
-  }
-
-  .lg\:focus\:rotate-80:focus{
-    --tw-rotate: 80deg;
   }
 
   .lg\:focus\:rotate-90:focus{
     --tw-rotate: 90deg;
   }
 
-  .lg\:focus\:rotate-100:focus{
-    --tw-rotate: 100deg;
-  }
-
-  .lg\:focus\:rotate-120:focus{
-    --tw-rotate: 120deg;
-  }
-
-  .lg\:focus\:rotate-140:focus{
-    --tw-rotate: 80deg;
-  }
-
-  .lg\:focus\:rotate-160:focus{
-    --tw-rotate: 90deg;
-  }
-
   .lg\:focus\:rotate-180:focus{
-    --tw-rotate: 100deg;
-  }
-
-  .lg\:focus\:rotate-200:focus{
-    --tw-rotate: 110deg;
-  }
-
-  .lg\:focus\:rotate-220:focus{
-    --tw-rotate: 120deg;
-  }
-
-  .lg\:focus\:rotate-240:focus{
-    --tw-rotate: 130deg;
-  }
-
-  .lg\:focus\:rotate-260:focus{
-    --tw-rotate: 140deg;
-  }
-
-  .lg\:focus\:rotate-280:focus{
-    --tw-rotate: 280deg;
-  }
-
-  .lg\:focus\:rotate-300:focus{
-    --tw-rotate: 300deg;
-  }
-
-  .lg\:focus\:rotate-320:focus{
-    --tw-rotate: 320deg;
-  }
-
-  .lg\:focus\:rotate-340:focus{
-    --tw-rotate: 340deg;
+    --tw-rotate: 180deg;
   }
 
   .lg\:focus\:-rotate-180:focus{
@@ -66421,6 +66122,51 @@ video {
   .lg\:animate-bounce{
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .lg\:animate-rot10{
+    -webkit-animation: rot10 30s linear infinite;
+            animation: rot10 30s linear infinite;
+  }
+
+  .lg\:animate-rot20{
+    -webkit-animation: rot20 30s linear infinite;
+            animation: rot20 30s linear infinite;
+  }
+
+  .lg\:animate-rot30{
+    -webkit-animation: rot30 30s linear infinite;
+            animation: rot30 30s linear infinite;
+  }
+
+  .lg\:animate-rot40{
+    -webkit-animation: rot40 30s linear infinite;
+            animation: rot40 30s linear infinite;
+  }
+
+  .lg\:animate-rot50{
+    -webkit-animation: rot50 30s linear infinite;
+            animation: rot50 30s linear infinite;
+  }
+
+  .lg\:animate-rot60{
+    -webkit-animation: rot60 30s linear infinite;
+            animation: rot60 30s linear infinite;
+  }
+
+  .lg\:animate-rot70{
+    -webkit-animation: rot70 30s linear infinite;
+            animation: rot70 30s linear infinite;
+  }
+
+  .lg\:animate-rot80{
+    -webkit-animation: rot80 30s linear infinite;
+            animation: rot80 30s linear infinite;
+  }
+
+  .lg\:animate-rot90{
+    -webkit-animation: rot90 30s linear infinite;
+            animation: rot90 30s linear infinite;
   }
 
   .lg\:cursor-auto{
@@ -84067,80 +83813,16 @@ video {
     --tw-rotate: 12deg;
   }
 
-  .xl\:rotate-20{
-    --tw-rotate: 20deg;
-  }
-
-  .xl\:rotate-40{
-    --tw-rotate: 40deg;
-  }
-
   .xl\:rotate-45{
     --tw-rotate: 45deg;
-  }
-
-  .xl\:rotate-60{
-    --tw-rotate: 60deg;
-  }
-
-  .xl\:rotate-80{
-    --tw-rotate: 80deg;
   }
 
   .xl\:rotate-90{
     --tw-rotate: 90deg;
   }
 
-  .xl\:rotate-100{
-    --tw-rotate: 100deg;
-  }
-
-  .xl\:rotate-120{
-    --tw-rotate: 120deg;
-  }
-
-  .xl\:rotate-140{
-    --tw-rotate: 80deg;
-  }
-
-  .xl\:rotate-160{
-    --tw-rotate: 90deg;
-  }
-
   .xl\:rotate-180{
-    --tw-rotate: 100deg;
-  }
-
-  .xl\:rotate-200{
-    --tw-rotate: 110deg;
-  }
-
-  .xl\:rotate-220{
-    --tw-rotate: 120deg;
-  }
-
-  .xl\:rotate-240{
-    --tw-rotate: 130deg;
-  }
-
-  .xl\:rotate-260{
-    --tw-rotate: 140deg;
-  }
-
-  .xl\:rotate-280{
-    --tw-rotate: 280deg;
-  }
-
-  .xl\:rotate-300{
-    --tw-rotate: 300deg;
-  }
-
-  .xl\:rotate-320{
-    --tw-rotate: 320deg;
-  }
-
-  .xl\:rotate-340{
-    --tw-rotate: 340deg;
+    --tw-rotate: 180deg;
   }
 
   .xl\:-rotate-180{
@@ -84199,80 +83881,16 @@ video {
     --tw-rotate: 12deg;
   }
 
-  .xl\:hover\:rotate-20:hover{
-    --tw-rotate: 20deg;
-  }
-
-  .xl\:hover\:rotate-40:hover{
-    --tw-rotate: 40deg;
-  }
-
   .xl\:hover\:rotate-45:hover{
     --tw-rotate: 45deg;
-  }
-
-  .xl\:hover\:rotate-60:hover{
-    --tw-rotate: 60deg;
-  }
-
-  .xl\:hover\:rotate-80:hover{
-    --tw-rotate: 80deg;
   }
 
   .xl\:hover\:rotate-90:hover{
     --tw-rotate: 90deg;
   }
 
-  .xl\:hover\:rotate-100:hover{
-    --tw-rotate: 100deg;
-  }
-
-  .xl\:hover\:rotate-120:hover{
-    --tw-rotate: 120deg;
-  }
-
-  .xl\:hover\:rotate-140:hover{
-    --tw-rotate: 80deg;
-  }
-
-  .xl\:hover\:rotate-160:hover{
-    --tw-rotate: 90deg;
-  }
-
   .xl\:hover\:rotate-180:hover{
-    --tw-rotate: 100deg;
-  }
-
-  .xl\:hover\:rotate-200:hover{
-    --tw-rotate: 110deg;
-  }
-
-  .xl\:hover\:rotate-220:hover{
-    --tw-rotate: 120deg;
-  }
-
-  .xl\:hover\:rotate-240:hover{
-    --tw-rotate: 130deg;
-  }
-
-  .xl\:hover\:rotate-260:hover{
-    --tw-rotate: 140deg;
-  }
-
-  .xl\:hover\:rotate-280:hover{
-    --tw-rotate: 280deg;
-  }
-
-  .xl\:hover\:rotate-300:hover{
-    --tw-rotate: 300deg;
-  }
-
-  .xl\:hover\:rotate-320:hover{
-    --tw-rotate: 320deg;
-  }
-
-  .xl\:hover\:rotate-340:hover{
-    --tw-rotate: 340deg;
+    --tw-rotate: 180deg;
   }
 
   .xl\:hover\:-rotate-180:hover{
@@ -84331,80 +83949,16 @@ video {
     --tw-rotate: 12deg;
   }
 
-  .xl\:focus\:rotate-20:focus{
-    --tw-rotate: 20deg;
-  }
-
-  .xl\:focus\:rotate-40:focus{
-    --tw-rotate: 40deg;
-  }
-
   .xl\:focus\:rotate-45:focus{
     --tw-rotate: 45deg;
-  }
-
-  .xl\:focus\:rotate-60:focus{
-    --tw-rotate: 60deg;
-  }
-
-  .xl\:focus\:rotate-80:focus{
-    --tw-rotate: 80deg;
   }
 
   .xl\:focus\:rotate-90:focus{
     --tw-rotate: 90deg;
   }
 
-  .xl\:focus\:rotate-100:focus{
-    --tw-rotate: 100deg;
-  }
-
-  .xl\:focus\:rotate-120:focus{
-    --tw-rotate: 120deg;
-  }
-
-  .xl\:focus\:rotate-140:focus{
-    --tw-rotate: 80deg;
-  }
-
-  .xl\:focus\:rotate-160:focus{
-    --tw-rotate: 90deg;
-  }
-
   .xl\:focus\:rotate-180:focus{
-    --tw-rotate: 100deg;
-  }
-
-  .xl\:focus\:rotate-200:focus{
-    --tw-rotate: 110deg;
-  }
-
-  .xl\:focus\:rotate-220:focus{
-    --tw-rotate: 120deg;
-  }
-
-  .xl\:focus\:rotate-240:focus{
-    --tw-rotate: 130deg;
-  }
-
-  .xl\:focus\:rotate-260:focus{
-    --tw-rotate: 140deg;
-  }
-
-  .xl\:focus\:rotate-280:focus{
-    --tw-rotate: 280deg;
-  }
-
-  .xl\:focus\:rotate-300:focus{
-    --tw-rotate: 300deg;
-  }
-
-  .xl\:focus\:rotate-320:focus{
-    --tw-rotate: 320deg;
-  }
-
-  .xl\:focus\:rotate-340:focus{
-    --tw-rotate: 340deg;
+    --tw-rotate: 180deg;
   }
 
   .xl\:focus\:-rotate-180:focus{
@@ -85116,6 +84670,51 @@ video {
   .xl\:animate-bounce{
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .xl\:animate-rot10{
+    -webkit-animation: rot10 30s linear infinite;
+            animation: rot10 30s linear infinite;
+  }
+
+  .xl\:animate-rot20{
+    -webkit-animation: rot20 30s linear infinite;
+            animation: rot20 30s linear infinite;
+  }
+
+  .xl\:animate-rot30{
+    -webkit-animation: rot30 30s linear infinite;
+            animation: rot30 30s linear infinite;
+  }
+
+  .xl\:animate-rot40{
+    -webkit-animation: rot40 30s linear infinite;
+            animation: rot40 30s linear infinite;
+  }
+
+  .xl\:animate-rot50{
+    -webkit-animation: rot50 30s linear infinite;
+            animation: rot50 30s linear infinite;
+  }
+
+  .xl\:animate-rot60{
+    -webkit-animation: rot60 30s linear infinite;
+            animation: rot60 30s linear infinite;
+  }
+
+  .xl\:animate-rot70{
+    -webkit-animation: rot70 30s linear infinite;
+            animation: rot70 30s linear infinite;
+  }
+
+  .xl\:animate-rot80{
+    -webkit-animation: rot80 30s linear infinite;
+            animation: rot80 30s linear infinite;
+  }
+
+  .xl\:animate-rot90{
+    -webkit-animation: rot90 30s linear infinite;
+            animation: rot90 30s linear infinite;
   }
 
   .xl\:cursor-auto{
@@ -102762,80 +102361,16 @@ video {
     --tw-rotate: 12deg;
   }
 
-  .\32xl\:rotate-20{
-    --tw-rotate: 20deg;
-  }
-
-  .\32xl\:rotate-40{
-    --tw-rotate: 40deg;
-  }
-
   .\32xl\:rotate-45{
     --tw-rotate: 45deg;
-  }
-
-  .\32xl\:rotate-60{
-    --tw-rotate: 60deg;
-  }
-
-  .\32xl\:rotate-80{
-    --tw-rotate: 80deg;
   }
 
   .\32xl\:rotate-90{
     --tw-rotate: 90deg;
   }
 
-  .\32xl\:rotate-100{
-    --tw-rotate: 100deg;
-  }
-
-  .\32xl\:rotate-120{
-    --tw-rotate: 120deg;
-  }
-
-  .\32xl\:rotate-140{
-    --tw-rotate: 80deg;
-  }
-
-  .\32xl\:rotate-160{
-    --tw-rotate: 90deg;
-  }
-
   .\32xl\:rotate-180{
-    --tw-rotate: 100deg;
-  }
-
-  .\32xl\:rotate-200{
-    --tw-rotate: 110deg;
-  }
-
-  .\32xl\:rotate-220{
-    --tw-rotate: 120deg;
-  }
-
-  .\32xl\:rotate-240{
-    --tw-rotate: 130deg;
-  }
-
-  .\32xl\:rotate-260{
-    --tw-rotate: 140deg;
-  }
-
-  .\32xl\:rotate-280{
-    --tw-rotate: 280deg;
-  }
-
-  .\32xl\:rotate-300{
-    --tw-rotate: 300deg;
-  }
-
-  .\32xl\:rotate-320{
-    --tw-rotate: 320deg;
-  }
-
-  .\32xl\:rotate-340{
-    --tw-rotate: 340deg;
+    --tw-rotate: 180deg;
   }
 
   .\32xl\:-rotate-180{
@@ -102894,80 +102429,16 @@ video {
     --tw-rotate: 12deg;
   }
 
-  .\32xl\:hover\:rotate-20:hover{
-    --tw-rotate: 20deg;
-  }
-
-  .\32xl\:hover\:rotate-40:hover{
-    --tw-rotate: 40deg;
-  }
-
   .\32xl\:hover\:rotate-45:hover{
     --tw-rotate: 45deg;
-  }
-
-  .\32xl\:hover\:rotate-60:hover{
-    --tw-rotate: 60deg;
-  }
-
-  .\32xl\:hover\:rotate-80:hover{
-    --tw-rotate: 80deg;
   }
 
   .\32xl\:hover\:rotate-90:hover{
     --tw-rotate: 90deg;
   }
 
-  .\32xl\:hover\:rotate-100:hover{
-    --tw-rotate: 100deg;
-  }
-
-  .\32xl\:hover\:rotate-120:hover{
-    --tw-rotate: 120deg;
-  }
-
-  .\32xl\:hover\:rotate-140:hover{
-    --tw-rotate: 80deg;
-  }
-
-  .\32xl\:hover\:rotate-160:hover{
-    --tw-rotate: 90deg;
-  }
-
   .\32xl\:hover\:rotate-180:hover{
-    --tw-rotate: 100deg;
-  }
-
-  .\32xl\:hover\:rotate-200:hover{
-    --tw-rotate: 110deg;
-  }
-
-  .\32xl\:hover\:rotate-220:hover{
-    --tw-rotate: 120deg;
-  }
-
-  .\32xl\:hover\:rotate-240:hover{
-    --tw-rotate: 130deg;
-  }
-
-  .\32xl\:hover\:rotate-260:hover{
-    --tw-rotate: 140deg;
-  }
-
-  .\32xl\:hover\:rotate-280:hover{
-    --tw-rotate: 280deg;
-  }
-
-  .\32xl\:hover\:rotate-300:hover{
-    --tw-rotate: 300deg;
-  }
-
-  .\32xl\:hover\:rotate-320:hover{
-    --tw-rotate: 320deg;
-  }
-
-  .\32xl\:hover\:rotate-340:hover{
-    --tw-rotate: 340deg;
+    --tw-rotate: 180deg;
   }
 
   .\32xl\:hover\:-rotate-180:hover{
@@ -103026,80 +102497,16 @@ video {
     --tw-rotate: 12deg;
   }
 
-  .\32xl\:focus\:rotate-20:focus{
-    --tw-rotate: 20deg;
-  }
-
-  .\32xl\:focus\:rotate-40:focus{
-    --tw-rotate: 40deg;
-  }
-
   .\32xl\:focus\:rotate-45:focus{
     --tw-rotate: 45deg;
-  }
-
-  .\32xl\:focus\:rotate-60:focus{
-    --tw-rotate: 60deg;
-  }
-
-  .\32xl\:focus\:rotate-80:focus{
-    --tw-rotate: 80deg;
   }
 
   .\32xl\:focus\:rotate-90:focus{
     --tw-rotate: 90deg;
   }
 
-  .\32xl\:focus\:rotate-100:focus{
-    --tw-rotate: 100deg;
-  }
-
-  .\32xl\:focus\:rotate-120:focus{
-    --tw-rotate: 120deg;
-  }
-
-  .\32xl\:focus\:rotate-140:focus{
-    --tw-rotate: 80deg;
-  }
-
-  .\32xl\:focus\:rotate-160:focus{
-    --tw-rotate: 90deg;
-  }
-
   .\32xl\:focus\:rotate-180:focus{
-    --tw-rotate: 100deg;
-  }
-
-  .\32xl\:focus\:rotate-200:focus{
-    --tw-rotate: 110deg;
-  }
-
-  .\32xl\:focus\:rotate-220:focus{
-    --tw-rotate: 120deg;
-  }
-
-  .\32xl\:focus\:rotate-240:focus{
-    --tw-rotate: 130deg;
-  }
-
-  .\32xl\:focus\:rotate-260:focus{
-    --tw-rotate: 140deg;
-  }
-
-  .\32xl\:focus\:rotate-280:focus{
-    --tw-rotate: 280deg;
-  }
-
-  .\32xl\:focus\:rotate-300:focus{
-    --tw-rotate: 300deg;
-  }
-
-  .\32xl\:focus\:rotate-320:focus{
-    --tw-rotate: 320deg;
-  }
-
-  .\32xl\:focus\:rotate-340:focus{
-    --tw-rotate: 340deg;
+    --tw-rotate: 180deg;
   }
 
   .\32xl\:focus\:-rotate-180:focus{
@@ -103811,6 +103218,51 @@ video {
   .\32xl\:animate-bounce{
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .\32xl\:animate-rot10{
+    -webkit-animation: rot10 30s linear infinite;
+            animation: rot10 30s linear infinite;
+  }
+
+  .\32xl\:animate-rot20{
+    -webkit-animation: rot20 30s linear infinite;
+            animation: rot20 30s linear infinite;
+  }
+
+  .\32xl\:animate-rot30{
+    -webkit-animation: rot30 30s linear infinite;
+            animation: rot30 30s linear infinite;
+  }
+
+  .\32xl\:animate-rot40{
+    -webkit-animation: rot40 30s linear infinite;
+            animation: rot40 30s linear infinite;
+  }
+
+  .\32xl\:animate-rot50{
+    -webkit-animation: rot50 30s linear infinite;
+            animation: rot50 30s linear infinite;
+  }
+
+  .\32xl\:animate-rot60{
+    -webkit-animation: rot60 30s linear infinite;
+            animation: rot60 30s linear infinite;
+  }
+
+  .\32xl\:animate-rot70{
+    -webkit-animation: rot70 30s linear infinite;
+            animation: rot70 30s linear infinite;
+  }
+
+  .\32xl\:animate-rot80{
+    -webkit-animation: rot80 30s linear infinite;
+            animation: rot80 30s linear infinite;
+  }
+
+  .\32xl\:animate-rot90{
+    -webkit-animation: rot90 30s linear infinite;
+            animation: rot90 30s linear infinite;
   }
 
   .\32xl\:cursor-auto{
