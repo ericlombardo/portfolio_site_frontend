@@ -6,6 +6,7 @@ const blogPosts = document.getElementById('blog-posts')
 
 
 function loadPage() {
+  createLandingPage()
   blogTitle.innerHTML = generateTitle('Tech Blog', "bg-night-computer")
   postService.getPosts()  // get all posts
 }
@@ -26,3 +27,4 @@ function generateTitle(t, backgroundClass) {
 }
 
 loadPage()
+

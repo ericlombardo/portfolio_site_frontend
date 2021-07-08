@@ -35,7 +35,7 @@ class Post {
     return this.element
   }
 
-  addPostsToDom() {  // adds `this` instance to secondDiv
+  addPostsToDom() {  // adds `this` instance to blogPosts div
     blogPosts.appendChild(this.createPostsHTML())
   }
 
