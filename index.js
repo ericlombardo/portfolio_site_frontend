@@ -13,8 +13,10 @@ function loadPage() {
 
 // clear all divs on index.html
 function clearPage() {
-  document.getElementById('landing-page').remove()
-  document.body.childNodes.forEach(el => el.innerHTML = '')
+  document.getElementById('landing-page').innerHTML = ''
+  document.getElementById('blog-container').innerHTML = ''
+  document.getElementById('blog-container').classList = '' // remove w-full and h-full from div
+  document.getElementById('blog-post').innerHTML = ''
 }
 // generate title in titleDiv
 function generateTitle(t, backgroundClass) {
