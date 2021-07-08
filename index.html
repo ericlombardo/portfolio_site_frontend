@@ -1,61 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="output.css">
-  <title>Eric Lombardo</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Eric Lombardo</title>
+  </head>
 
-<body class="container w-screen"> <!-- remove the classes and create a div in landingpage.js with classes, then innerHTML = "" should would for clear-->
-  <nav class="sticky top-0 z-40 flex items-center justify-between flex-wrap bg-teal p-2 w-screen">
-    <div class="flex items-center flex-shrink-0 text-white mr-6">
-      <span class="font-semibold text-black text-3xl tracking-tight">Eric Lombardo</span>
-    </div>
-    <div class="w-full block flex-grow md:flex md:items-center md:w-auto">
-      <div class="text-xl md:flex-grow">
-        <a href="#responsive-header" class="text-right block mt-4 inline-block md:mt-0 hover:text-white mr-4">
-          resume
-        </a>
-        <a href="#responsive-header" class="text-right block mt-4 inline-block md:mt-0 hover:text-white mr-4">
-          about
-        </a>
-        <a href="#responsive-header" class="text-right block mt-4 inline-block md:mt-0 hover:text-white mr-4">
-          portfolio
-        </a>
-        <a href="#blog-title" class="text-right block mt-4 inline-block md:mt-0 hover:text-white mr-4">
-          blog
-        </a>
-        <a href="#responsive-header" class="text-right block mt-4 inline-block md:mt-0 hover:text-white mr-4">
-          contact
-        </a>
+  <body class="container w-screen"> <!-- remove the classes and create a div in landingpage.js with classes, then innerHTML = "" should would for clear-->
+    <nav class="sticky top-0 z-40 bg-teal p-2 w-screen">
+      <div class="grid grid-cols-2 ">
+        <span class="flex flex-wrap content-center font-semibold text-black text-3xl pl-4">Eric Lombardo</span>
 
+        <div class="text-xl flex flex-row-reverse">
+          <div>
+            <a href="#contact" class=" flex flex-wrap content-center mt-4 mr-4 lg:mr-10 inline-block md:mt-0 hover:text-white">
+              contact
+            </a>
+          </div>
+          <div>
+            <a href="#blog-title" class=" flex flex-wrap content-center mt-4 mr-4 inline-block md:mt-0 hover:text-white">
+              blog
+            </a>
+          </div>
+          <div>
+            <a href="#resume" class="flex flex-wrap content-center mt-4 mr-4 inline-block md:mt-0 hover:text-white">
+              resume
+            </a>
+          </div>
+          <div>
+            <a href="#portfolio" class=" flex flex-wrap content-center mt-4 mr-4 inline-block md:mt-0 hover:text-white">
+              portfolio
+            </a>
+          </div>
+          <div>
+            <a href="#about" class=" flex flex-wrap content-center mt-4 mr-4 inline-block md:mt-0 hover:text-white">
+              about
+            </a>
+          </div>
+        </div>
       </div>
+      
+    </nav>
+
+
+    <div id="landing-page">
+      <!-- generate and show blog title -->
     </div>
-  </nav>
 
+    <div id="blog-title" class="w-screen"> 
+      <!-- generate and show blog title -->
+    </div>
 
-  <div id="landing-page">
-  </div>
+    <div id="blog-posts" class="grid md:grid-cols-3 md:gap-5 py-6 w-screen px-20">
+      <!-- gererate and show blog posts -->
+    </div>
 
-  <div id="blog-title" class="w-screen"> 
-    <!-- generate and show blog title -->
-  </div>
-
-  <div id="blog-posts" class="grid md:grid-cols-3 md:gap-5 py-6 w-screen px-20">
-    <!-- gererate and show blog posts -->
-  </div>
-  <div id="blog-post"><!-- content for single blog post added here-->
-  </div>
-  
-  <script src="src/post.js"></script>
-  <script src="src/comment.js"></script>
-  <script src="src/postService.js"></script>
-  <script src="src/commentService.js"></script>
-  <script src="src/landingPage.js"></script>
-  <script src="index.js"></script>
-</body>
+    <div id="blog-post">
+      <!-- content for single blog post added here-->
+    </div>
+    
+    <!-- load all scripts needed to keep singular responsability-->
+    <script src="src/post.js"></script>
+    <script src="src/comment.js"></script>
+    <script src="src/postService.js"></script>
+    <script src="src/commentService.js"></script>
+    <script src="src/landingPage.js"></script>
+    <script src="index.js"></script>
+  </body>
 
 </html>
