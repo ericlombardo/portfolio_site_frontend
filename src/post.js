@@ -89,7 +89,7 @@ class Post {
     const post = document.createElement('div')
     post.classList = "blog-post w-screen px-6 py-7 lg:px-28 mx-auto"
     post.innerHTML = postHTML
-    document.body.firstElementChild.append(post)
+    document.getElementById('blog-post').append(post)
   }
 
   handlePostClick() {
