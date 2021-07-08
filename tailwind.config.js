@@ -32,15 +32,15 @@ module.exports = {
         'night-computer': "url(https://images.pexels.com/photos/3709434/pexels-photo-3709434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920)"
       }),
       animation: {
-        'rot10': 'rot10 30s linear infinite',
-        'rot20': 'rot20 30s linear infinite',
-        'rot30': 'rot30 30s linear infinite',
-        'rot40': 'rot40 30s linear infinite',
-        'rot50': 'rot50 30s linear infinite',
-        'rot60': 'rot60 30s linear infinite',
-        'rot70': 'rot70 30s linear infinite',
-        'rot80': 'rot80 30s linear infinite',
-        'rot90': 'rot90 30s linear infinite',
+        'rot10': 'rot10 20s linear infinite',
+        'rot20': 'rot20 20s linear infinite',
+        'rot30': 'rot30 20s linear infinite',
+        'rot40': 'rot40 20s linear infinite',
+        'rot50': 'rot50 20s linear infinite',
+        'rot60': 'rot60 20s linear infinite',
+        'rot70': 'rot70 20s linear infinite',
+        'rot80': 'rot80 20s linear infinite',
+        'rot90': 'rot90 20s linear infinite',
       },
       keyframes: {
         rot10: {
