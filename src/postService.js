@@ -22,13 +22,14 @@ class PostService {
       },
       body: JSON.stringify({
         'likes': ++likes,
-        'like_pic': 'src/img/icons/heart-thin.png'
+        // 'like_pic': 'src/img/icons/heart-thin.png'
       })
     }
     fetch(this.endpoint + `/posts/${id}`, config)
       .then(resp => resp.json())
       .then(p => {
         let likes = document.getElementById('like-count')
+        // update using p.likes???
         likes.innerText = (parseInt(likes.innerText) + 1)
       })
   }
