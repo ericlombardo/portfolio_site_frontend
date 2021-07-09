@@ -42,6 +42,7 @@ class Post {
   showSinglePost() {
     const post = Post.all.find(p => p.id === parseInt(this.dataset['id']))
     clearPage()
+    window.scrollTo(0, 0)
     blogTitle.innerHTML = generateTitle(`${post.title}`, 'bg-night-computer')
     post.addPostToDom(post.createPostHTML())
     document.querySelector('.blog-post').addEventListener('click', post.handlePostClick)
@@ -61,10 +62,6 @@ class Post {
         </div>
       </div>
       <p class"text-center font-medium text-2xl">${this.content}</p>
-
-      <div class="post-nav flex items-top justify-center py-12">
-        <button class="w-2/5 font-title border border-teal bg-teal-light py-0.5 px-32 rounded shadow-lg cursor-pointer" type="submit" id="comment-submit" id="back-btn">Back to Main</button>
-      </div>  
 
       <div class="py-7" id="comment-submit-section">
         <h2 class="font-title text-lg">Add Your Thoughts:</h2>
@@ -102,8 +99,6 @@ class Post {
       const postId = document.querySelector('[data-postId]').dataset['postid']
       commentService.submitComment(postId, commentContent.value)
       commentContent.value = ''
-    } if (event.target.innerText === "Back to Main") {
-      location.reload()
     }
   }
 

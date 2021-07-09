@@ -4,16 +4,17 @@ const commentService = new CommentService(baseUrl)
 const blogTitle = document.getElementById('blog-title') // collect 1nd div
 const blogPosts = document.getElementById('blog-posts')
 const blogPost = document.getElementById('blog-post')
-
+let navHref = ''
 // logic for navbar
 function navBar(href) { 
+  navHref = href
   if (blogPost.innerText === '') {  // checks if on main page
-    document.getElementById(href).scrollIntoView() // if so goes to href
+    document.getElementById(navHref).scrollIntoView() // if so goes to href
   } else { // if not
-    location.reload() // reload main page 
-    window.onload = () => {
-      document.getElementById(href).scrollIntoView() // then goes to href
-    }
+    clearPage()
+    loadPage()
+    setTimeout(() => {document.getElementById(navHref).scrollIntoView()}, 100)
+    
   }
 }
 // initial load sequence
@@ -25,7 +26,8 @@ function loadPage() {
 // clear divs innerHTML for showing single post
 function clearPage() {
   document.getElementById('landing-page').innerHTML = ''
-  document.getElementById('blog-container').innerHTML = ''
+  document.getElementById('blog-title').innerHTML = ''
+  document.getElementById('blog-posts').innerHTML = ''
   document.getElementById('blog-container').classList = '' // remove w-full and h-full from div
   document.getElementById('blog-post').innerHTML = ''
 }
