@@ -43,7 +43,7 @@ class Post {
     const post = Post.all.find(p => p.id === parseInt(this.dataset['id']))
     clearPage()
     window.scrollTo(0, 0)
-    blogTitle.innerHTML = generateTitle(`${post.title}`, 'bg-night-computer')
+    blogTitle.innerHTML = generateTitle(`${post.title}`, 'bg-texture-dark')
     post.addPostToDom(post.createPostHTML())
     document.querySelector('.blog-post').addEventListener('click', post.handlePostClick)
     commentService.getPostComments(this.dataset['id'])

@@ -14175,8 +14175,12 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
-.bg-night-computer{
+.bg-texture-dark{
   background-image: url(https://images.pexels.com/photos/3709434/pexels-photo-3709434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+}
+
+.bg-keyboard-background{
+  background-image: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
 }
 
 .from-transparent{
@@ -32851,8 +32855,12 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .sm\:bg-night-computer{
+  .sm\:bg-texture-dark{
     background-image: url(https://images.pexels.com/photos/3709434/pexels-photo-3709434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+  }
+
+  .sm\:bg-keyboard-background{
+    background-image: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
   }
 
   .sm\:from-transparent{
@@ -51399,8 +51407,12 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .md\:bg-night-computer{
+  .md\:bg-texture-dark{
     background-image: url(https://images.pexels.com/photos/3709434/pexels-photo-3709434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+  }
+
+  .md\:bg-keyboard-background{
+    background-image: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
   }
 
   .md\:from-transparent{
@@ -69947,8 +69959,12 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .lg\:bg-night-computer{
+  .lg\:bg-texture-dark{
     background-image: url(https://images.pexels.com/photos/3709434/pexels-photo-3709434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+  }
+
+  .lg\:bg-keyboard-background{
+    background-image: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
   }
 
   .lg\:from-transparent{
@@ -88495,8 +88511,12 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .xl\:bg-night-computer{
+  .xl\:bg-texture-dark{
     background-image: url(https://images.pexels.com/photos/3709434/pexels-photo-3709434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+  }
+
+  .xl\:bg-keyboard-background{
+    background-image: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
   }
 
   .xl\:from-transparent{
@@ -107043,8 +107063,12 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .\32xl\:bg-night-computer{
+  .\32xl\:bg-texture-dark{
     background-image: url(https://images.pexels.com/photos/3709434/pexels-photo-3709434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+  }
+
+  .\32xl\:bg-keyboard-background{
+    background-image: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
   }
 
   .\32xl\:from-transparent{
