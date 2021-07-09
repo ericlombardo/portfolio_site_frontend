@@ -10343,48 +10343,48 @@ video {
 }
 
 .animate-rot10{
-  -webkit-animation: rot10 20s linear infinite;
-          animation: rot10 20s linear infinite;
+  -webkit-animation: rot10 15s linear infinite;
+          animation: rot10 15s linear infinite;
 }
 
 .animate-rot20{
-  -webkit-animation: rot20 20s linear infinite;
-          animation: rot20 20s linear infinite;
+  -webkit-animation: rot20 15s linear infinite;
+          animation: rot20 15s linear infinite;
 }
 
 .animate-rot30{
-  -webkit-animation: rot30 20s linear infinite;
-          animation: rot30 20s linear infinite;
+  -webkit-animation: rot30 15s linear infinite;
+          animation: rot30 15s linear infinite;
 }
 
 .animate-rot40{
-  -webkit-animation: rot40 20s linear infinite;
-          animation: rot40 20s linear infinite;
+  -webkit-animation: rot40 15s linear infinite;
+          animation: rot40 15s linear infinite;
 }
 
 .animate-rot50{
-  -webkit-animation: rot50 20s linear infinite;
-          animation: rot50 20s linear infinite;
+  -webkit-animation: rot50 15s linear infinite;
+          animation: rot50 15s linear infinite;
 }
 
 .animate-rot60{
-  -webkit-animation: rot60 20s linear infinite;
-          animation: rot60 20s linear infinite;
+  -webkit-animation: rot60 15s linear infinite;
+          animation: rot60 15s linear infinite;
 }
 
 .animate-rot70{
-  -webkit-animation: rot70 20s linear infinite;
-          animation: rot70 20s linear infinite;
+  -webkit-animation: rot70 15s linear infinite;
+          animation: rot70 15s linear infinite;
 }
 
 .animate-rot80{
-  -webkit-animation: rot80 20s linear infinite;
-          animation: rot80 20s linear infinite;
+  -webkit-animation: rot80 15s linear infinite;
+          animation: rot80 15s linear infinite;
 }
 
 .animate-rot90{
-  -webkit-animation: rot90 20s linear infinite;
-          animation: rot90 20s linear infinite;
+  -webkit-animation: rot90 15s linear infinite;
+          animation: rot90 15s linear infinite;
 }
 
 .cursor-auto{
@@ -14181,6 +14181,10 @@ video {
 
 .bg-keyboard-background{
   background-image: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+}
+
+.bg-computer-background{
+  background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
 }
 
 .from-transparent{
@@ -29023,48 +29027,48 @@ video {
   }
 
   .sm\:animate-rot10{
-    -webkit-animation: rot10 20s linear infinite;
-            animation: rot10 20s linear infinite;
+    -webkit-animation: rot10 15s linear infinite;
+            animation: rot10 15s linear infinite;
   }
 
   .sm\:animate-rot20{
-    -webkit-animation: rot20 20s linear infinite;
-            animation: rot20 20s linear infinite;
+    -webkit-animation: rot20 15s linear infinite;
+            animation: rot20 15s linear infinite;
   }
 
   .sm\:animate-rot30{
-    -webkit-animation: rot30 20s linear infinite;
-            animation: rot30 20s linear infinite;
+    -webkit-animation: rot30 15s linear infinite;
+            animation: rot30 15s linear infinite;
   }
 
   .sm\:animate-rot40{
-    -webkit-animation: rot40 20s linear infinite;
-            animation: rot40 20s linear infinite;
+    -webkit-animation: rot40 15s linear infinite;
+            animation: rot40 15s linear infinite;
   }
 
   .sm\:animate-rot50{
-    -webkit-animation: rot50 20s linear infinite;
-            animation: rot50 20s linear infinite;
+    -webkit-animation: rot50 15s linear infinite;
+            animation: rot50 15s linear infinite;
   }
 
   .sm\:animate-rot60{
-    -webkit-animation: rot60 20s linear infinite;
-            animation: rot60 20s linear infinite;
+    -webkit-animation: rot60 15s linear infinite;
+            animation: rot60 15s linear infinite;
   }
 
   .sm\:animate-rot70{
-    -webkit-animation: rot70 20s linear infinite;
-            animation: rot70 20s linear infinite;
+    -webkit-animation: rot70 15s linear infinite;
+            animation: rot70 15s linear infinite;
   }
 
   .sm\:animate-rot80{
-    -webkit-animation: rot80 20s linear infinite;
-            animation: rot80 20s linear infinite;
+    -webkit-animation: rot80 15s linear infinite;
+            animation: rot80 15s linear infinite;
   }
 
   .sm\:animate-rot90{
-    -webkit-animation: rot90 20s linear infinite;
-            animation: rot90 20s linear infinite;
+    -webkit-animation: rot90 15s linear infinite;
+            animation: rot90 15s linear infinite;
   }
 
   .sm\:cursor-auto{
@@ -32861,6 +32865,10 @@ video {
 
   .sm\:bg-keyboard-background{
     background-image: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+  }
+
+  .sm\:bg-computer-background{
+    background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
   }
 
   .sm\:from-transparent{
@@ -47575,48 +47583,48 @@ video {
   }
 
   .md\:animate-rot10{
-    -webkit-animation: rot10 20s linear infinite;
-            animation: rot10 20s linear infinite;
+    -webkit-animation: rot10 15s linear infinite;
+            animation: rot10 15s linear infinite;
   }
 
   .md\:animate-rot20{
-    -webkit-animation: rot20 20s linear infinite;
-            animation: rot20 20s linear infinite;
+    -webkit-animation: rot20 15s linear infinite;
+            animation: rot20 15s linear infinite;
   }
 
   .md\:animate-rot30{
-    -webkit-animation: rot30 20s linear infinite;
-            animation: rot30 20s linear infinite;
+    -webkit-animation: rot30 15s linear infinite;
+            animation: rot30 15s linear infinite;
   }
 
   .md\:animate-rot40{
-    -webkit-animation: rot40 20s linear infinite;
-            animation: rot40 20s linear infinite;
+    -webkit-animation: rot40 15s linear infinite;
+            animation: rot40 15s linear infinite;
   }
 
   .md\:animate-rot50{
-    -webkit-animation: rot50 20s linear infinite;
-            animation: rot50 20s linear infinite;
+    -webkit-animation: rot50 15s linear infinite;
+            animation: rot50 15s linear infinite;
   }
 
   .md\:animate-rot60{
-    -webkit-animation: rot60 20s linear infinite;
-            animation: rot60 20s linear infinite;
+    -webkit-animation: rot60 15s linear infinite;
+            animation: rot60 15s linear infinite;
   }
 
   .md\:animate-rot70{
-    -webkit-animation: rot70 20s linear infinite;
-            animation: rot70 20s linear infinite;
+    -webkit-animation: rot70 15s linear infinite;
+            animation: rot70 15s linear infinite;
   }
 
   .md\:animate-rot80{
-    -webkit-animation: rot80 20s linear infinite;
-            animation: rot80 20s linear infinite;
+    -webkit-animation: rot80 15s linear infinite;
+            animation: rot80 15s linear infinite;
   }
 
   .md\:animate-rot90{
-    -webkit-animation: rot90 20s linear infinite;
-            animation: rot90 20s linear infinite;
+    -webkit-animation: rot90 15s linear infinite;
+            animation: rot90 15s linear infinite;
   }
 
   .md\:cursor-auto{
@@ -51413,6 +51421,10 @@ video {
 
   .md\:bg-keyboard-background{
     background-image: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+  }
+
+  .md\:bg-computer-background{
+    background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
   }
 
   .md\:from-transparent{
@@ -66127,48 +66139,48 @@ video {
   }
 
   .lg\:animate-rot10{
-    -webkit-animation: rot10 20s linear infinite;
-            animation: rot10 20s linear infinite;
+    -webkit-animation: rot10 15s linear infinite;
+            animation: rot10 15s linear infinite;
   }
 
   .lg\:animate-rot20{
-    -webkit-animation: rot20 20s linear infinite;
-            animation: rot20 20s linear infinite;
+    -webkit-animation: rot20 15s linear infinite;
+            animation: rot20 15s linear infinite;
   }
 
   .lg\:animate-rot30{
-    -webkit-animation: rot30 20s linear infinite;
-            animation: rot30 20s linear infinite;
+    -webkit-animation: rot30 15s linear infinite;
+            animation: rot30 15s linear infinite;
   }
 
   .lg\:animate-rot40{
-    -webkit-animation: rot40 20s linear infinite;
-            animation: rot40 20s linear infinite;
+    -webkit-animation: rot40 15s linear infinite;
+            animation: rot40 15s linear infinite;
   }
 
   .lg\:animate-rot50{
-    -webkit-animation: rot50 20s linear infinite;
-            animation: rot50 20s linear infinite;
+    -webkit-animation: rot50 15s linear infinite;
+            animation: rot50 15s linear infinite;
   }
 
   .lg\:animate-rot60{
-    -webkit-animation: rot60 20s linear infinite;
-            animation: rot60 20s linear infinite;
+    -webkit-animation: rot60 15s linear infinite;
+            animation: rot60 15s linear infinite;
   }
 
   .lg\:animate-rot70{
-    -webkit-animation: rot70 20s linear infinite;
-            animation: rot70 20s linear infinite;
+    -webkit-animation: rot70 15s linear infinite;
+            animation: rot70 15s linear infinite;
   }
 
   .lg\:animate-rot80{
-    -webkit-animation: rot80 20s linear infinite;
-            animation: rot80 20s linear infinite;
+    -webkit-animation: rot80 15s linear infinite;
+            animation: rot80 15s linear infinite;
   }
 
   .lg\:animate-rot90{
-    -webkit-animation: rot90 20s linear infinite;
-            animation: rot90 20s linear infinite;
+    -webkit-animation: rot90 15s linear infinite;
+            animation: rot90 15s linear infinite;
   }
 
   .lg\:cursor-auto{
@@ -69965,6 +69977,10 @@ video {
 
   .lg\:bg-keyboard-background{
     background-image: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+  }
+
+  .lg\:bg-computer-background{
+    background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
   }
 
   .lg\:from-transparent{
@@ -84679,48 +84695,48 @@ video {
   }
 
   .xl\:animate-rot10{
-    -webkit-animation: rot10 20s linear infinite;
-            animation: rot10 20s linear infinite;
+    -webkit-animation: rot10 15s linear infinite;
+            animation: rot10 15s linear infinite;
   }
 
   .xl\:animate-rot20{
-    -webkit-animation: rot20 20s linear infinite;
-            animation: rot20 20s linear infinite;
+    -webkit-animation: rot20 15s linear infinite;
+            animation: rot20 15s linear infinite;
   }
 
   .xl\:animate-rot30{
-    -webkit-animation: rot30 20s linear infinite;
-            animation: rot30 20s linear infinite;
+    -webkit-animation: rot30 15s linear infinite;
+            animation: rot30 15s linear infinite;
   }
 
   .xl\:animate-rot40{
-    -webkit-animation: rot40 20s linear infinite;
-            animation: rot40 20s linear infinite;
+    -webkit-animation: rot40 15s linear infinite;
+            animation: rot40 15s linear infinite;
   }
 
   .xl\:animate-rot50{
-    -webkit-animation: rot50 20s linear infinite;
-            animation: rot50 20s linear infinite;
+    -webkit-animation: rot50 15s linear infinite;
+            animation: rot50 15s linear infinite;
   }
 
   .xl\:animate-rot60{
-    -webkit-animation: rot60 20s linear infinite;
-            animation: rot60 20s linear infinite;
+    -webkit-animation: rot60 15s linear infinite;
+            animation: rot60 15s linear infinite;
   }
 
   .xl\:animate-rot70{
-    -webkit-animation: rot70 20s linear infinite;
-            animation: rot70 20s linear infinite;
+    -webkit-animation: rot70 15s linear infinite;
+            animation: rot70 15s linear infinite;
   }
 
   .xl\:animate-rot80{
-    -webkit-animation: rot80 20s linear infinite;
-            animation: rot80 20s linear infinite;
+    -webkit-animation: rot80 15s linear infinite;
+            animation: rot80 15s linear infinite;
   }
 
   .xl\:animate-rot90{
-    -webkit-animation: rot90 20s linear infinite;
-            animation: rot90 20s linear infinite;
+    -webkit-animation: rot90 15s linear infinite;
+            animation: rot90 15s linear infinite;
   }
 
   .xl\:cursor-auto{
@@ -88517,6 +88533,10 @@ video {
 
   .xl\:bg-keyboard-background{
     background-image: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+  }
+
+  .xl\:bg-computer-background{
+    background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
   }
 
   .xl\:from-transparent{
@@ -103231,48 +103251,48 @@ video {
   }
 
   .\32xl\:animate-rot10{
-    -webkit-animation: rot10 20s linear infinite;
-            animation: rot10 20s linear infinite;
+    -webkit-animation: rot10 15s linear infinite;
+            animation: rot10 15s linear infinite;
   }
 
   .\32xl\:animate-rot20{
-    -webkit-animation: rot20 20s linear infinite;
-            animation: rot20 20s linear infinite;
+    -webkit-animation: rot20 15s linear infinite;
+            animation: rot20 15s linear infinite;
   }
 
   .\32xl\:animate-rot30{
-    -webkit-animation: rot30 20s linear infinite;
-            animation: rot30 20s linear infinite;
+    -webkit-animation: rot30 15s linear infinite;
+            animation: rot30 15s linear infinite;
   }
 
   .\32xl\:animate-rot40{
-    -webkit-animation: rot40 20s linear infinite;
-            animation: rot40 20s linear infinite;
+    -webkit-animation: rot40 15s linear infinite;
+            animation: rot40 15s linear infinite;
   }
 
   .\32xl\:animate-rot50{
-    -webkit-animation: rot50 20s linear infinite;
-            animation: rot50 20s linear infinite;
+    -webkit-animation: rot50 15s linear infinite;
+            animation: rot50 15s linear infinite;
   }
 
   .\32xl\:animate-rot60{
-    -webkit-animation: rot60 20s linear infinite;
-            animation: rot60 20s linear infinite;
+    -webkit-animation: rot60 15s linear infinite;
+            animation: rot60 15s linear infinite;
   }
 
   .\32xl\:animate-rot70{
-    -webkit-animation: rot70 20s linear infinite;
-            animation: rot70 20s linear infinite;
+    -webkit-animation: rot70 15s linear infinite;
+            animation: rot70 15s linear infinite;
   }
 
   .\32xl\:animate-rot80{
-    -webkit-animation: rot80 20s linear infinite;
-            animation: rot80 20s linear infinite;
+    -webkit-animation: rot80 15s linear infinite;
+            animation: rot80 15s linear infinite;
   }
 
   .\32xl\:animate-rot90{
-    -webkit-animation: rot90 20s linear infinite;
-            animation: rot90 20s linear infinite;
+    -webkit-animation: rot90 15s linear infinite;
+            animation: rot90 15s linear infinite;
   }
 
   .\32xl\:cursor-auto{
@@ -107069,6 +107089,10 @@ video {
 
   .\32xl\:bg-keyboard-background{
     background-image: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+  }
+
+  .\32xl\:bg-computer-background{
+    background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
   }
 
   .\32xl\:from-transparent{

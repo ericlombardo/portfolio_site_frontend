@@ -30,7 +30,8 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'texture-dark': "url(https://images.pexels.com/photos/3709434/pexels-photo-3709434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920)",
-        'keyboard-background': "url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920)"
+        'keyboard-background': "url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920)",
+        'computer-background': "url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920)"
       }),
       animation: {
         'rot10': 'rot10 20s linear infinite',
