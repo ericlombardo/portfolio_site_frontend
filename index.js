@@ -23,6 +23,7 @@ function navBar(href) {
 function loadPage() { 
   createLandingPage() // creates html
   createAboutPage() // create html
+  createPortfolioPage() // create html
   blogTitle.innerHTML = generateTitle('Tech Blog', "bg-texture-dark") // generates blog title
   postService.getPosts()  // gets all posts and adds them to DOM
 }
@@ -30,6 +31,7 @@ function loadPage() {
 function clearPage() {
   document.getElementById('landing-page').innerHTML = ''
   document.getElementById('about').innerHTML = ''
+  document.getElementById('portfolio').innerHTML = ''
   document.getElementById('blog-title').innerHTML = ''
   document.getElementById('blog-posts').innerHTML = ''
   document.getElementById('blog-container').classList = '' // remove w-full and h-full from div
