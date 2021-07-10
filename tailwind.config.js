@@ -4,29 +4,35 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      white: '#FEFFFF',
-      black: '#17252A',
-      orange: '#F79E02',
-      green: '#86C232',
-      teal: {
-        light: '#00daf7',
-        DEFAULT: '#00b2c9',
-        dark: '#004d57'
-      },
-      grey: {
-        light: '#d6d6d6',
-        DEFAULT: '#949494',
-        dark: '#363636'
-      }
-    },
     extend: {
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        white: '#FEFFFF',
+        black: '#17252A',
+        orange: '#F79E02',
+        green: '#86C232',
+        teal: {
+          light: '#00daf7',
+          DEFAULT: '#00b2c9',
+          dark: '#004d57'
+        },
+        grey: {
+          light: '#d6d6d6',
+          DEFAULT: '#949494',
+          dark: '#363636'
+        }
+      },
       fontFamily: {
         'body': ['Jura', 'sans-serif'],
         'title': ['Play', 'sans-serif'],
         sans: ['Jura', ...defaultTheme.fontFamily.sans,]
+      },
+      width: {
+        '560px': '560px',
+      },
+      height: {
+        '315px': '315px',
       },
       backgroundImage: theme => ({
         'texture-dark': "url(https://images.pexels.com/photos/3709434/pexels-photo-3709434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920)",
@@ -43,6 +49,7 @@ module.exports = {
         'rot70': 'rot70 20s linear infinite',
         'rot80': 'rot80 20s linear infinite',
         'rot90': 'rot90 20s linear infinite',
+        'revealLeft': 'revealLeft 5s',
       },
       keyframes: {
         rot10: {
@@ -99,6 +106,12 @@ module.exports = {
           '55%': {transform: 'rotate(90deg)'},
           '100%': {transform: 'rotate(0deg)'},
         },
+        revealLeft: {
+          '0%': {transform: 'rotate(0deg)'},
+          '45%': {transform: 'rotate(90deg)'},
+          '55%': {transform: 'rotate(90deg)'},
+          '100%': {transform: 'rotate(0deg)'},
+        }
       }
     },
   },
