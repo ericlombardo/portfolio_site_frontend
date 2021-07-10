@@ -37,7 +37,8 @@ module.exports = {
       backgroundImage: theme => ({
         'texture-dark': "url(https://images.pexels.com/photos/3709434/pexels-photo-3709434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920)",
         'keyboard-background': "url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920)",
-        'computer-background': "url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920)"
+        'computer-background': "url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920)",
+        'contact-background': "url(https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920)"
       }),
       animation: {
         'rot10': 'rot10 20s linear infinite',
@@ -106,13 +107,7 @@ module.exports = {
           '55%': {transform: 'rotate(90deg)'},
           '100%': {transform: 'rotate(0deg)'},
         },
-        revealLeft: {
-          '0%': {transform: 'rotate(0deg)'},
-          '45%': {transform: 'rotate(90deg)'},
-          '55%': {transform: 'rotate(90deg)'},
-          '100%': {transform: 'rotate(0deg)'},
-        }
-      }
+      },
     },
   },
   variants: {

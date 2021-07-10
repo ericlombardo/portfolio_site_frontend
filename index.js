@@ -26,6 +26,7 @@ function loadPage() {
   createPortfolioPage() // create html
   blogTitle.innerHTML = generateTitle('Tech Blog', "bg-texture-dark") // generates blog title
   postService.getPosts()  // gets all posts and adds them to DOM
+  createContactPage() // create html
 }
 // clear divs innerHTML for showing single post
 function clearPage() {
@@ -36,6 +37,7 @@ function clearPage() {
   document.getElementById('blog-posts').innerHTML = ''
   document.getElementById('blog-container').classList = '' // remove w-full and h-full from div
   document.getElementById('blog-post').innerHTML = ''
+  document.getElementById('contact').innerHTML = ''
 }
 // generate title in titleDiv
 function generateTitle(t, backgroundClass) {

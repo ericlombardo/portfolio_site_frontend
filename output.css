@@ -10326,42 +10326,6 @@ video {
   }
 }
 
-@-webkit-keyframes revealLeft{
-  0%{
-    transform: rotate(0deg);
-  }
-
-  45%{
-    transform: rotate(90deg);
-  }
-
-  55%{
-    transform: rotate(90deg);
-  }
-
-  100%{
-    transform: rotate(0deg);
-  }
-}
-
-@keyframes revealLeft{
-  0%{
-    transform: rotate(0deg);
-  }
-
-  45%{
-    transform: rotate(90deg);
-  }
-
-  55%{
-    transform: rotate(90deg);
-  }
-
-  100%{
-    transform: rotate(0deg);
-  }
-}
-
 .animate-none{
   -webkit-animation: none;
           animation: none;
@@ -18085,6 +18049,10 @@ video {
 
 .bg-computer-background{
   background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+}
+
+.bg-contact-background{
+  background-image: url(https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
 }
 
 .from-transparent{
@@ -49384,6 +49352,10 @@ video {
     background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
   }
 
+  .sm\:bg-contact-background{
+    background-image: url(https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+  }
+
   .sm\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -80271,6 +80243,10 @@ video {
 
   .md\:bg-computer-background{
     background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+  }
+
+  .md\:bg-contact-background{
+    background-image: url(https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
   }
 
   .md\:from-transparent{
@@ -111162,6 +111138,10 @@ video {
     background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
   }
 
+  .lg\:bg-contact-background{
+    background-image: url(https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+  }
+
   .lg\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -142051,6 +142031,10 @@ video {
     background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
   }
 
+  .xl\:bg-contact-background{
+    background-image: url(https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+  }
+
   .xl\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -172938,6 +172922,10 @@ video {
 
   .\32xl\:bg-computer-background{
     background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
+  }
+
+  .\32xl\:bg-contact-background{
+    background-image: url(https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=1920);
   }
 
   .\32xl\:from-transparent{
