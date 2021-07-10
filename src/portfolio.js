@@ -2,7 +2,7 @@ function createPortfolioPage() {
   document.getElementById('portfolio').innerHTML = `
     <div class="w-screen min-h-screen bg-orange grid grid-cols-2 grid gap-2 py-20 text-white font-body text-xl">
       <div class="w-10/12 mx-auto bg-black border-2 border-white rounded">
-        <video src="src/img/20180810_175726.mp4" controls>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/wcGPN8-L5_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       
       <div class="w-10/12 mx-auto bg-black border-2 border-white rounded p-3">
@@ -34,11 +34,11 @@ function createPortfolioPage() {
       </div>
       
       <div class="w-10/12 mx-auto bg-black border-2 border-white rounded">
-      <video src="src/img/20180810_175726.mp4" controls>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Oe_ZnWt6SVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       
       <div class="w-10/12 mx-auto bg-black border-2 border-white rounded">
-      <video src="src/img/20180810_175726.mp4" controls>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YwVB3NcyAJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       
       <div class="w-10/12 mx-auto bg-black border-2 border-white rounded p-3">
@@ -76,7 +76,7 @@ function createPortfolioPage() {
       </div>
       
       <div class="w-10/12 mx-auto bg-black border-2 border-white rounded">
-      <video src="src/img/20180810_175726.mp4" controls>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RjbYvPPicjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   `
