@@ -1,7 +1,7 @@
 function createAboutPage() {
   const aboutPage = document.getElementById('about')
   aboutPage.innerHTML = `
-  <div class="bg-keyboard-background bg-no-repeat bg-cover text-lg w-screen h-screen bg-fixed p-5 md:p-20 sm:flex items-center justify-center gap-4">
+  <div class="bg-keyboard-background bg-no-repeat bg-cover text-lg w-screen h-screen bg-fixed p-5 md:p-20 md:flex items-center justify-center gap-4">
     <img class="rounded-full mx-auto w-4/12 h-auto border-2 border-orange" src="src/img/about_photo.jpg" alt="picture of eric lombardo">
     
     <div class="bg-white bg-opacity-90 m-10 mx-auto border-2 border-orange rounded-xl font-body text-black shadow-xl">
