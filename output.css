@@ -18059,6 +18059,10 @@ video {
   background-image: url(https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1920);
 }
 
+.bg-blog-background{
+  background-image: url(https://images.pexels.com/photos/1297611/pexels-photo-1297611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920);
+}
+
 .from-transparent{
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -49364,6 +49368,10 @@ video {
     background-image: url(https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1920);
   }
 
+  .sm\:bg-blog-background{
+    background-image: url(https://images.pexels.com/photos/1297611/pexels-photo-1297611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920);
+  }
+
   .sm\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -80259,6 +80267,10 @@ video {
 
   .md\:bg-abstract-background{
     background-image: url(https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1920);
+  }
+
+  .md\:bg-blog-background{
+    background-image: url(https://images.pexels.com/photos/1297611/pexels-photo-1297611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920);
   }
 
   .md\:from-transparent{
@@ -111158,6 +111170,10 @@ video {
     background-image: url(https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1920);
   }
 
+  .lg\:bg-blog-background{
+    background-image: url(https://images.pexels.com/photos/1297611/pexels-photo-1297611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920);
+  }
+
   .lg\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -142055,6 +142071,10 @@ video {
     background-image: url(https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1920);
   }
 
+  .xl\:bg-blog-background{
+    background-image: url(https://images.pexels.com/photos/1297611/pexels-photo-1297611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920);
+  }
+
   .xl\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -172950,6 +172970,10 @@ video {
 
   .\32xl\:bg-abstract-background{
     background-image: url(https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1920);
+  }
+
+  .\32xl\:bg-blog-background{
+    background-image: url(https://images.pexels.com/photos/1297611/pexels-photo-1297611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920);
   }
 
   .\32xl\:from-transparent{

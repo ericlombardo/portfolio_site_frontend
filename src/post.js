@@ -61,14 +61,14 @@ class Post {
           <p class="inline" id="like-count">${this.likes}</p>
         </div>
       </div>
-      <p class"text-center font-medium text-2xl">${this.content}</p>
+      <p class"text-center font-medium text-5xl font-bold">${this.content}</p>
 
       <div class="py-7" id="comment-submit-section">
         <h2 class="font-title text-lg">Add Your Thoughts:</h2>
         <div class="form-container">
           <form id="comment-form">
-            <textarea class="border border-teal w-3/5 h-24 rounded shadow-lg" type="text" id="comment-content"></textarea><br>
-            <button class="font-title border border-teal bg-teal-light py-2 px-3 rounded shadow-lg cursor-pointer" type="submit" id="comment-submit">Post Comment</button>
+            <textarea class="border focus:border-3 focus:border-orange border-4 w-3/5 h-24 rounded shadow-lg" type="text" id="comment-content"></textarea><br>
+            <button class=" font-title bg-orange hover:bg-yellow-600 hover:ring-4 hover:ring-orange py-2 px-3 rounded shadow-lg cursor-pointer" type="submit" id="comment-submit">Post Comment</button>
           </form>
         </div>
       </div>
