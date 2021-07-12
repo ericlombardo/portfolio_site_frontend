@@ -18,7 +18,7 @@ class Post {
     // assign identifiers
     this.element.dataset.id = this.id
     this.element.id = `post-${this.id}`
-    this.element.classList = "shadow-xl cursor-pointer"
+    this.element.classList = "shadow-xl cursor-pointer transform transition-all hover:scale-105"
     // add event listener
     this.element.addEventListener('click', this.showSinglePost)
 
@@ -57,7 +57,7 @@ class Post {
         <div class="text-center text-lg font-title"><p>Published: ${this.published}</p></div>
         <div class="text-center text-lg font-title"><h4>Author: ${this.author}</h4></div>
         <div class="text-center text-lg font-title">
-          <img class="like-btn inline cursor-pointer" src=${this.like_pic} alt="like button" width="20px">
+          <img class="like-btn inline cursor-pointer transform transition-all hover:scale-125 " src=${this.like_pic} alt="like button" width="20px">
           <p class="inline" id="like-count">${this.likes}</p>
         </div>
       </div>
