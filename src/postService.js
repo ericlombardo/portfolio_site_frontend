@@ -29,8 +29,7 @@ class PostService {
       .then(resp => resp.json())
       .then(p => {
         let likes = document.getElementById('like-count')
-        // update using p.likes???
-        likes.innerText = (parseInt(likes.innerText) + 1)
+        likes.innerText = (p.likes)
       })
   }
 }

@@ -20,7 +20,7 @@ class Post {
     this.element.id = `post-${this.id}`
     this.element.classList = "shadow-xl cursor-pointer transform transition-all hover:scale-105"
     // add event listener
-    this.element.addEventListener('click', this.showSinglePost)
+    this.element.addEventListener('click', () => this.showSinglePost())
 
     Post.all.push(this)  // push `this` instance into all array
   }
@@ -40,13 +40,12 @@ class Post {
   }
 
   showSinglePost() {
-    const post = Post.all.find(p => p.id === parseInt(this.dataset['id']))
     clearPage()
     window.scrollTo(0, 0)
-    blogTitle.innerHTML = generateTitle(`${post.title}`, 'bg-texture-dark')
-    post.addPostToDom(post.createPostHTML())
-    document.querySelector('.blog-post').addEventListener('click', post.handlePostClick)
-    commentService.getPostComments(this.dataset['id'])
+    blogTitle.innerHTML = generateTitle(`${this.title}`, 'bg-texture-dark')
+    this.addPostToDom(this.createPostHTML())
+    document.querySelector('.blog-post').addEventListener('click', this.handlePostClick)
+    commentService.getPostComments(this.id)
   }
 
   createPostHTML() { // creates HTML using post instance and not object from server
